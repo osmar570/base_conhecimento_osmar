@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "fbd328995be981c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7169f87d576a639",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f39321f10456c77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernets/Ingress e Ingress Controllers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ingress e Ingress Controllers"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "22a25cc9296244ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "4b3f3519da49ff89",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd5d081a56ab8c10",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "0291b653d7db8950",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d2dcf431f4127cc6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "044f8c9a106168fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "d27f67b21f8185d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f85bf14981f2e041",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Curso michel telo.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Curso michel telo"
+            }
+          },
+          {
+            "id": "f90a02c8b4785d14",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Curso michel telo.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Curso michel telo"
+            }
+          },
+          {
+            "id": "48523e92b8b0ea1b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2882837fc584f910",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9f93b9fcc62eb733",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Curso michel telo.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Curso michel telo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "5f39321f10456c77",
+  "lastOpenFiles": [
+    "Kubernets/Gateway API e HTTPRoute.md",
+    "Kubernets/Objetos Fundamentais.md",
+    "Kubernets/Monitoramento de Nodes e Pods.md",
+    "Kubernets/Manifestos YAML e Persistência.md",
+    "Kubernets/Helm - Gerenciador de Pacotes.md",
+    "Kubernets/Ingress e Ingress Controllers.md",
+    "Kubernets/Kubernetes.md",
+    "Kubernets/Rancher - Gestão Multi-Cluster.md",
+    "Kubernets/como iniciar (GKE).md",
+    "GKE.md",
+    "Kubernets/Service Mesh - Istio.md",
+    "Kubernets/Gerenciamento de Nodes (GKE).md",
+    "Kubernets/ConfigMaps e Secrets.md",
+    "Kubernets/Comparativo GKE vs AKS vs OKE.md",
+    "Kubernets/como iniciar (Local).md",
+    "Kubernets/Autoscaling no Kubernetes.md",
+    "Kubernets",
+    "Sem título.canvas",
+    "2026-04-17.md",
+    "create a link.md",
+    "Curso michel telo.md",
+    "Welcome.md"
+  ]
+}
