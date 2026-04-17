@@ -11,10 +11,14 @@
             "id": "5f39321f10456c77",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Kubernets/Gateway API e HTTPRoute.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gateway API e HTTPRoute"
             }
           }
         ]
@@ -90,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Curso michel telo.md",
+                "file": "Kubernets/Gateway API e HTTPRoute.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Curso michel telo"
+              "title": "Links inversos para Gateway API e HTTPRoute"
             }
           },
           {
@@ -165,8 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,29 +182,36 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "5f39321f10456c77",
+  "active": "f85bf14981f2e041",
   "lastOpenFiles": [
+    "Docker/Persistência de Dados (Volumes).md",
+    "Docker/Segurança no Docker.md",
+    "Kubernets/Objetos Fundamentais.md",
+    "Kubernets/Comandos Essenciais do Kubernetes.md",
+    "GEMINI.md",
+    "Docker/Boas Práticas e Otimização.md",
+    "Docker/Docker Compose.md",
+    "Docker/O que são Containers (Detalhes Técnicos).md",
+    "Docker/Orquestração com Kubernetes.md",
+    "Docker/O que é uma Imagem Docker.md",
+    "Docker/Docker.md",
+    "Kubernets/Rancher - Gestão Multi-Cluster.md",
+    "Kubernets/Service Mesh - Istio.md",
+    "Docker",
     "Kubernets/Kubernetes.md",
     "Kubernets/Ingress e Ingress Controllers.md",
     "Kubernets/Gateway API e HTTPRoute.md",
-    "Kubernets/Objetos Fundamentais.md",
     "Kubernets/Monitoramento de Nodes e Pods.md",
     "Kubernets/Manifestos YAML e Persistência.md",
     "Kubernets/Helm - Gerenciador de Pacotes.md",
-    "Kubernets/Rancher - Gestão Multi-Cluster.md",
     "Kubernets/como iniciar (GKE).md",
     "GKE.md",
-    "Kubernets/Service Mesh - Istio.md",
     "Kubernets/Gerenciamento de Nodes (GKE).md",
     "Kubernets/ConfigMaps e Secrets.md",
     "Kubernets/Comparativo GKE vs AKS vs OKE.md",
     "Kubernets/como iniciar (Local).md",
     "Kubernets/Autoscaling no Kubernetes.md",
     "Kubernets",
-    "Sem título.canvas",
-    "2026-04-17.md",
-    "create a link.md",
-    "Curso michel telo.md",
-    "Welcome.md"
+    "Sem título.canvas"
   ]
 }
