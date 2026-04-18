@@ -47,15 +47,24 @@ Documentação sobre Infraestrutura como Código (IaC).
 - **Exemplo Completo - K8s, Rancher e Gateway API.md**: Guia prático provisionando Ubuntu, K3s, Rancher via Helm e rotas Gateway API.
 - **Monitoramento e Autoscaling**: Práticas de observabilidade e escalabilidade.
 
+### 🏛️ Clean Architecture (`/Clean Architecture`)
+Padrões de design de software e separação de preocupações.
+- **Clean Architecture.md**: O arquivo de índice que explica as camadas (Entities, Use Cases) e a Regra da Dependência.
+- **Regra da Dependência e DIP.md**: Como proteger o núcleo do software usando Inversão de Dependência.
+- **Detalhamento das Camadas (Entities e Use Cases).md**: A diferença entre Regras Corporativas e Regras de Aplicação.
+- **Interface Adapters (Controllers e Gateways).md**: A camada de tradução entre o mundo externo e o núcleo do sistema.
+- **Diferença entre Clean vs Hexagonal.md**: Comparativo entre Clean Architecture e Ports and Adapters.
+- **Exemplo Prático CSharp.md**: Estrutura de Solution (.sln) e responsabilidades de cada projeto em .NET.
+
 ## 🚀 Como utilizar
 
 Este repositório foi projetado para ser visualizado no **Obsidian**, aproveitando os links internos (`[[Link]]`) entre as notas.
 
-1.  **Exploração**: Comece pelos arquivos `Docker/Docker.md` ou `Kubernets/Kubernetes.md` para uma introdução aos tópicos.
-2.  **Referência Rápida**: Utilize a pasta `Kubernets` para comandos essenciais e configurações de objetos fundamentais (Pods, Services, ConfigMaps).
+1.  **Exploração**: Comece pelos arquivos `Docker/Docker.md` ou `Kubernetes/Kubernetes.md` para uma introdução aos tópicos.
+2.  **Referência Rápida**: Utilize a pasta `Kubernetes` para comandos essenciais e configurações de objetos fundamentais (Pods, Services, ConfigMaps).
 3.  **Ambientes**: Existem guias específicos para configuração local (Minikube/K3s) e em nuvem (GKE/AKS/OKE).
 
 ## 🛠️ Convenções
-- As notas estão escritas em **Português (PT-BR)**.
-- Utiliza-se a sintaxe padrão de Markdown com extensões do Obsidian (como WikiLinks).
-- O nome da pasta `Kubernets` (sic) é mantido conforme a estrutura original do projeto.
+- **Idioma:** As notas estão escritas em **Português (PT-BR)**.
+- **Sintaxe:** Utiliza-se a sintaxe padrão de Markdown com extensões do Obsidian (**WikiLinks** `[[Link]]`).
+- **Arquivos de Índice:** Para cada grande assunto (pasta), deve existir um arquivo principal com o nome exato do assunto (ex: `Docker.md`, `Kubernetes.md`, `Terraform.md`). Este arquivo deve atuar como o ponto de entrada, referenciando e contextualizando todos os outros arquivos contidos naquela pasta.
