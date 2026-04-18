@@ -70,6 +70,21 @@ Inteligência Artificial e Processamento de Linguagem Natural.
 - **Hospedando IAs Locais com Docker.md**: Uso de Ollama, Open WebUI e requisitos de hardware para IA local.
 - **Arquitetura de Multiagentes.md**: Colaboração entre LLMs, frameworks (CrewAI, AutoGen) e processos de orquestração.
 
+### 🐧 Linux (`/Linux`)
+Conhecimentos fundamentais sobre o sistema operacional base para DevOps.
+- **Linux.md**: Arquivo de índice com história, vantagens e trilha de aprendizagem.
+- **Arquitetura de Diretórios.md**: Onde ficam os arquivos? O que é /etc, /var e /home?
+- **Comandos Essenciais de Terminal.md**: Navegação, manipulação de arquivos, sistema e serviços (systemctl).
+- **Gerenciamento de Pacotes.md**: Como instalar softwares usando apt, dnf, pacman e formatos universais (Snap/Flatpak).
+- **Shell Scripting e Automação.md**: Criação de scripts .sh, variáveis, lógica e agendamento com Crontab.
+- **Automações Úteis com Shell Script.md**: Exemplos práticos de scripts para backup, limpeza, Git e produtividade.
+- **Sistema de Permissões.md**: Entidades (Dono, Grupo, Outros), rwx, chmod, chown e valores octais.
+- **Processos e Monitoramento.md**: Gerenciamento de processos (PID, kill, htop), hardware (free, df) e background jobs.
+- **Redes no Linux.md**: Diagnóstico (ip, ss, dig), firewall (UFW/IPTables) e ferramentas avançadas (nmap, tcpdump).
+- **SSH e Acesso Remoto.md**: Chaves assimétricas, segurança do servidor e ferramentas de gestão (Termius, Ansible).
+- **Gestão de Usuários e Grupos.md**: Criação de usuários, sudoers, grupos e script de automação para massa.
+- **Processamento de Texto (Grep, Sed, Awk).md**: Manipulação de logs e fluxos de texto com a tríade clássica do Linux.
+
 ## 🚀 Como utilizar
 
 Este repositório foi projetado para ser visualizado no **Obsidian**, aproveitando os links internos (`[[Link]]`) entre as notas.
