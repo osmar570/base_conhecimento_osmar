@@ -71,3 +71,4 @@ Diferente dos containers, os **Volumes** possuem um ciclo de vida independente:
 **Links Relacionados:**
 - [[Docker Compose]]
 - [[O que são Containers (Detalhes Técnicos)]]
+- [[Docker]]

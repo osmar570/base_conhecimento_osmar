@@ -34,3 +34,4 @@ Existe uma diferença crucial entre **Expor** e **Publicar**:
 **Links Relacionados:**
 - [[Docker Compose]] (onde redes são definidas no YAML)
 - [[O que são Containers (Detalhes Técnicos)]]
+- [[Docker]]

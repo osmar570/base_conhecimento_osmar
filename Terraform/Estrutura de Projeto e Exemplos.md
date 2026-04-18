@@ -66,5 +66,5 @@ Conforme seu projeto cresce, você usa **Módulos**. Eles são como "funções" 
 
 ---
 **Links Relacionados:**
-- [[O que é Terraform e IaC]]
+- [[Terraform]]
 - [[Arquitetura e Comandos do Terraform]]

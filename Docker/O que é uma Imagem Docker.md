@@ -45,3 +45,4 @@ Imagens são armazenadas e compartilhadas através de **Registries**.
 **Links Relacionados:**
 - [[Introdução ao Docker e Conteinerização]]
 - [[O que são Containers (Detalhes Técnicos)]]
+- [[Docker]]

@@ -1,4 +1,4 @@
-# GitOps: A Operação Moderna de Kubernetes
+# GitOps: A Operação Moderna de [[Kubernetes]]
 
 **GitOps** é um modelo operacional onde a "Fonte da Verdade" de todo o sistema é um repositório Git. Em vez de usar comandos manuais como `kubectl apply`, você descreve o estado desejado no Git, e um agente dentro do cluster garante que a realidade corresponda a essa descrição.
 

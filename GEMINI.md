@@ -8,7 +8,7 @@ O projeto está organizado em dois pilares principais:
 
 ### 🐳 Docker (`/Docker`)
 Contém notas fundamentais e técnicas sobre conteinerização.
-- **Docker.md**: Introdução e conceitos básicos de containers.
+- **Introdução ao Docker e Conteinerização.md**: Guia inicial, problemas resolvidos e trilha de aprendizagem.
 - **O que são Containers (Detalhes Técnicos).md**: Explicação profunda sobre Namespaces, Cgroups, Layered File System e Runtime.
 - **O que é uma Imagem Docker.md**: Detalhes sobre a construção e estrutura de imagens.
 - **Docker Compose.md**: Gerenciamento de stacks multi-container.
@@ -29,13 +29,21 @@ Uma coleção abrangente de guias e conceitos sobre orquestração de containers
 - **como iniciar (GKE).md** & **Gerenciamento de Nodes (GKE)**: Notas específicas sobre Google Kubernetes Engine.
 - **Manifestos YAML e Persistência.md**: Exploração de recursos declarativos.
 - **Helm - Gerenciador de Pacotes.md**: Automação de deployments.
-- [[Service Mesh - Istio.md]] & [[Gateway API]]: Tópicos avançados de rede e comunicação.
+- **Gateway API e HTTPRoute.md**: Evolução do Ingress, separação de papéis e roteamento avançado.
+- **Service Mesh - Istio.md** : Tópicos avançados de comunicação.
 
 ### 🏗️ Terraform (`/Terraform`)
 Documentação sobre Infraestrutura como Código (IaC).
-- **O que é Terraform e IaC.md**: Conceitos fundamentais, Providers e o arquivo de State.
+- **Terraform.md**: Conceitos fundamentais, Providers e o arquivo de State.
 - **Arquitetura e Comandos do Terraform.md**: O ciclo de vida (Init, Plan, Apply, Destroy) e linguagem HCL.
+- **Backend Remoto e State Locking.md**: Colaboração em equipe, S3, GCS e travas com DynamoDB.
+- **Lógica Avançada e Ciclo de Vida.md**: Meta-arguments (count, for_each), proteção de recursos e depends_on.
+- **Workspaces e Ambientes.md**: Estratégias para Dev, Staging e Prod usando workspaces ou pastas.
+- **Terraform Import.md**: Como trazer infraestrutura existente para o controle do código.
+- **Segurança e Gestão de Segredos.md**: Integração com Secret Managers, variáveis sensitive e proteção do State.
+- **Ferramentas do Ecossistema.md**: terraform fmt, tflint e auditoria de segurança com tfsec.
 - **Estrutura de Projeto e Exemplos.md**: Organização de arquivos (.tf), variáveis, módulos e exemplo de GKE.
+- **Exemplo Completo - K8s, Rancher e Gateway API.md**: Guia prático provisionando Ubuntu, K3s, Rancher via Helm e rotas Gateway API.
 - **Monitoramento e Autoscaling**: Práticas de observabilidade e escalabilidade.
 
 ## 🚀 Como utilizar

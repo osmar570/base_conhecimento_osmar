@@ -1,4 +1,4 @@
-# Troubleshooting no Kubernetes
+# Troubleshooting no [[Kubernetes]]
 
 Depurar o Kubernetes exige entender em qual camada o problema está: **Infraestrutura (Node)**, **Orquestração (Control Plane)** ou **Aplicação (Pod)**.
 

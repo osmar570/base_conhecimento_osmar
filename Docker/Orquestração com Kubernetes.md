@@ -39,3 +39,4 @@ Embora o Docker tenha sido o motor original do Kubernetes, hoje o K8s utiliza o 
 - [[Introdução ao Docker e Conteinerização]]
 - [[O que são Containers (Detalhes Técnicos)]]
 - [[O que é uma Imagem Docker]]
+- [[Docker]]

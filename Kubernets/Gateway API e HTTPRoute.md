@@ -1,98 +1,77 @@
-# Gateway API e HTTPRoute: A Evolução do Ingress
+# Gateway API e HTTPRoute
 
-Com o amadurecimento do [[Kubernetes]], o objeto Ingress tornou-se limitado para cenários complexos. A **Gateway API** surgiu como o sucessor oficial, introduzindo o recurso **HTTPRoute** para gerenciar o tráfego de forma mais eficiente e flexível.
+A **Gateway API** é a evolução moderna do antigo objeto `Ingress`. Ela foi criada para oferecer um roteamento de rede mais expressivo, extensível e orientado a papéis dentro do [[Kubernetes]].
 
----
+## 1. Por que substituir o Ingress?
 
-## 1. O que é a Gateway API?
-Diferente do Ingress, que era um único objeto "faz-tudo", a Gateway API divide as responsabilidades em três partes:
+O `Ingress` original era limitado e dependia fortemente de "Annotations" (anotações) específicas de cada fabricante (Nginx, Traefik, ALB) para realizar tarefas comuns como redirecionamentos ou testes Canary. Isso tornava o código difícil de portar entre diferentes provedores.
 
-1.  **GatewayClass:** Define o "tipo" de balanceador (configurado pelo admin do cluster).
-2.  **Gateway:** O ponto de entrada real (o IP e a porta) que escuta o tráfego.
-3.  **HTTPRoute:** Define as regras de roteamento (para onde o tráfego vai). É aqui que o desenvolvedor trabalha.
+A Gateway API resolve isso criando uma estrutura modular e padronizada.
 
----
+## 2. A Estrutura Orientada a Papéis
 
-## 2. Por que mudar para HTTPRoute?
-- **Padronização:** Resolve o problema de cada Ingress Controller ter suas próprias anotações proprietárias.
-- **Roteamento Avançado:** Suporta nativamente divisão de tráfego por peso (Canary), redirecionamentos e modificação de headers sem hacks.
-- **Multi-tenancy:** Permite que diferentes equipes gerenciem suas rotas de forma isolada, mas compartilhando o mesmo Gateway.
+A Gateway API separa a infraestrutura da lógica de negócio através de três objetos principais:
 
----
+### A. GatewayClass (O Fabricante)
+Define o controlador que implementa a API (ex: Istio, Nginx, Cilium, Google Cloud Load Balancer). Geralmente gerenciado pelo **Administrador do Cluster**.
 
-## 3. Como Iniciar (Configuração)
+### B. Gateway (A Infraestrutura)
+Define onde o tráfego entra (IPs, Portas, Protocolos e Certificados TLS). Gerenciado pelo **Operador de Infraestrutura/Plataforma**.
 
-### Passo 1: Instalar as CRDs (Custom Resource Definitions)
-A Gateway API não vem instalada por padrão em clusters antigos. Você precisa aplicar as definições oficiais:
+### C. HTTPRoute (A Regra da App)
+Define como o tráfego é roteado para os Services (caminhos, cabeçalhos, pesos para Canary). Gerenciado pelos **Desenvolvedores da Aplicação**.
 
-```bash
-kubectl apply -f https://github.com/kubernetes-sigs/gateway-api/releases/download/v1.0.0/standard-install.yaml
-```
-*(Nota: No [[como iniciar (GKE)]], você pode habilitar isso nativamente nas configurações do cluster).*
+## 3. Exemplo de Configuração
 
-### Passo 2: Criar o Gateway
-Este objeto cria o balanceador de carga físico.
-
+### Definindo o Gateway (Porta de Entrada)
 ```yaml
 apiVersion: gateway.networking.k8s.io/v1
 kind: Gateway
 metadata:
-  name: meu-gateway
+  name: gateway-producao
+  namespace: infra-rede
 spec:
-  gatewayClassName: gke-l7-global-external-managed # Ou nginx-gateway dependendo do provedor
+  gatewayClassName: nginx-gateway
   listeners:
   - name: http
     protocol: HTTP
     port: 80
     allowedRoutes:
       namespaces:
-        from: All
+        from: All # Permite que apps de qualquer namespace usem este gateway
 ```
 
----
-
-## 4. Configurando o HTTPRoute (O "Router")
-Agora, definimos como o tráfego que chega no Gateway deve ser direcionado para os seus [[Objetos Fundamentais|Services]].
-
+### Definindo o HTTPRoute (Roteamento da App)
 ```yaml
 apiVersion: gateway.networking.k8s.io/v1
 kind: HTTPRoute
 metadata:
-  name: minha-rota-nginx
+  name: rota-meu-servico
+  namespace: app-backend
 spec:
   parentRefs:
-  - name: meu-gateway # Conecta esta rota ao Gateway criado acima
+  - name: gateway-producao
+    namespace: infra-rede
   hostnames:
-  - "meuapp.com"
+  - "api.minhaempresa.com"
   rules:
   - matches:
     - path:
         type: PathPrefix
-        value: /api
+        value: /v1
     backendRefs:
-    - name: servico-backend
+    - name: servico-v1
       port: 8080
-  - matches:
-    - path:
-        type: PathPrefix
-        value: /
-    backendRefs:
-    - name: nginx-service # Do arquivo [[Manifestos YAML e Persistência]]
-      port: 80
 ```
+
+## 4. Vantagens do HTTPRoute sobre o Ingress
+
+1.  **Canary Deployment Nativo:** Você pode dividir o tráfego entre duas versões de uma aplicação usando o campo `weight` (peso) diretamente no YAML, sem anotações extras.
+2.  **Modificação de Cabeçalhos:** Permite adicionar ou remover headers de requisição/resposta de forma padronizada.
+3.  **Compartilhamento de Gateway:** Múltiplas equipes podem "conectar" suas `HTTPRoutes` em um único `Gateway` centralizado de forma segura.
 
 ---
-
-## 5. Resumo de Comandos
-```bash
-# Verificar se as classes de Gateway estão disponíveis
-kubectl get gatewayclasses
-
-# Ver o status do seu Gateway (se ele já recebeu um IP)
-kubectl get gateways
-
-# Ver as rotas configuradas
-kubectl get httproutes
-```
-
-A Gateway API é o futuro da rede no Kubernetes. Embora o Ingress ainda funcione, aprender a trabalhar com **HTTPRoute** é essencial para manter seu ambiente atualizado e compatível com as novas ferramentas do ecossistema.
+**Links Relacionados:**
+- [[Kubernetes]]
+- [[Estratégias de Deployment]] (Canary)
+- [[Terraform/Exemplo Completo - K8s, Rancher e Gateway API]]

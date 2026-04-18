@@ -88,3 +88,4 @@ Configura o balanceador de carga na borda do cluster para receber tráfego exter
 - [[Objetos Fundamentais]]
 - [[Gateway API e HTTPRoute]]
 - [[Monitoramento de Nodes e Pods]]
+- [[Kubernetes]]

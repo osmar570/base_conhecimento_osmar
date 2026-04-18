@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d7169f87d576a639",
+        "id": "ef9e1bee7b5839b6",
         "type": "tabs",
         "children": [
           {
-            "id": "5f39321f10456c77",
+            "id": "a035a989b654b3f1",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Sem título.canvas",
-                "viewState": {
-                  "x": 119.89453125,
-                  "y": -195.59687500000007,
-                  "zoom": 0
-                }
+                "file": "Terraform/Exemplo Completo - K8s, Rancher e Gateway API.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Sem título"
+              "icon": "lucide-file",
+              "title": "Exemplo Completo - K8s, Rancher e Gateway API"
             }
           }
         ]
@@ -97,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem título.canvas",
+                "file": "Terraform/Exemplo Completo - K8s, Rancher e Gateway API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Sem título"
+              "title": "Links inversos para Exemplo Completo - K8s, Rancher e Gateway API"
             }
           },
           {
@@ -116,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem título.canvas",
+                "file": "Terraform/Exemplo Completo - K8s, Rancher e Gateway API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Sem título"
+              "title": "Links de saída para Exemplo Completo - K8s, Rancher e Gateway API"
             }
           },
           {
@@ -186,37 +183,37 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "5f39321f10456c77",
+  "active": "a035a989b654b3f1",
   "lastOpenFiles": [
-    "Terraform/Estrutura de Projeto e Exemplos.md",
-    "Terraform/Arquitetura e Comandos do Terraform.md",
-    "Terraform/O que é Terraform e IaC.md",
-    "Terraform",
-    "Kubernets/Estratégias de Deployment.md",
-    "Kubernets/GitOps e CD Moderno.md",
-    "Kubernets/RBAC e Governança.md",
-    "Docker/Troubleshooting no Docker.md",
-    "Kubernets/Troubleshooting no Kubernetes.md",
+    "Terraform/Ferramentas do Ecossistema.md",
+    "Terraform/Segurança e Gestão de Segredos.md",
+    "Terraform/Terraform Import.md",
+    "Terraform/Workspaces e Ambientes.md",
+    "Terraform/Lógica Avançada e Ciclo de Vida.md",
+    "Terraform/Backend Remoto e State Locking.md",
     "GEMINI.md",
-    "Sem título.canvas",
-    "Sem título.md",
-    "Kubernets/Gateway API e HTTPRoute.md",
-    "Docker/Persistência de Dados (Volumes).md",
-    "Docker/Segurança no Docker.md",
-    "Kubernets/Objetos Fundamentais.md",
-    "Kubernets/Comandos Essenciais do Kubernetes.md",
-    "Docker/Boas Práticas e Otimização.md",
-    "Docker/Docker Compose.md",
-    "Docker/O que são Containers (Detalhes Técnicos).md",
-    "Docker/Orquestração com Kubernetes.md",
-    "Docker/O que é uma Imagem Docker.md",
-    "Docker/Docker.md",
-    "Kubernets/Rancher - Gestão Multi-Cluster.md",
+    "Terraform/Arquitetura e Comandos do Terraform.md",
+    "Terraform/Estrutura de Projeto e Exemplos.md",
+    "Terraform/Exemplo Completo - K8s, Rancher e Gateway API.md",
+    "Terraform/Terraform.md",
+    "Kubernets/Troubleshooting no Kubernetes.md",
     "Kubernets/Service Mesh - Istio.md",
-    "Docker",
+    "Kubernets/RBAC e Governança.md",
+    "Kubernets/Rancher - Gestão Multi-Cluster.md",
+    "Kubernets/Objetos Fundamentais.md",
+    "Kubernets/Monitoramento de Nodes e Pods.md",
+    "Kubernets/Manifestos YAML e Persistência.md",
     "Kubernets/Kubernetes.md",
     "Kubernets/Ingress e Ingress Controllers.md",
-    "Kubernets/Monitoramento de Nodes e Pods.md",
+    "Kubernets/Helm - Gerenciador de Pacotes.md",
+    "Kubernets/GitOps e CD Moderno.md",
+    "Kubernets/Gerenciamento de Nodes (GKE).md",
+    "Kubernets/Gateway API e HTTPRoute.md",
+    "Kubernets/Estratégias de Deployment.md",
+    "Kubernets/ConfigMaps e Secrets.md",
+    "Sem título.canvas",
+    "Terraform",
+    "Docker",
     "Kubernets"
   ]
 }

@@ -42,3 +42,4 @@ Imagens no Docker Hub podem conter vulnerabilidades conhecidas (CVEs).
 **Links Relacionados:**
 - [[Boas Práticas e Otimização]]
 - [[O que são Containers (Detalhes Técnicos)]]
+- [[Docker]]

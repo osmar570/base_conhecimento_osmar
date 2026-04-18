@@ -1,4 +1,4 @@
-# Estratégias de Deployment no Kubernetes
+# Estratégias de Deployment no [[Kubernetes]]
 
 Diferente de sistemas legados onde você precisava de uma "janela de manutenção" para atualizar uma aplicação, o Kubernetes oferece várias estratégias para atualizar versões com o mínimo (ou zero) impacto para o usuário.
 

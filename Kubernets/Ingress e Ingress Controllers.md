@@ -1,3 +1,4 @@
+- [[Kubernetes]]
 # Ingress e Ingress Controllers
 
 Enquanto um [[Objetos Fundamentais|Service]] do tipo LoadBalancer cria um balanceador de carga para cada serviço exposto (o que pode ser caro e difícil de gerenciar), o **Ingress** atua como uma "porta de entrada inteligente" para o cluster.

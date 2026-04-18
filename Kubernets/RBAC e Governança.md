@@ -1,4 +1,4 @@
-# RBAC e Governança no Kubernetes
+# RBAC e Governança no [[Kubernetes]]
 
 No Kubernetes, a segurança não é apenas sobre perímetros, mas sobre o que cada usuário ou processo pode fazer dentro do cluster. O **RBAC (Role-Based Access Control)** é o mecanismo que regula isso.
 

@@ -53,5 +53,5 @@ O arquivo `terraform.tfstate` é gerado automaticamente.
 
 ---
 **Links Relacionados:**
-- [[O que é Terraform e IaC]]
+- [[Terraform]]
 - [[Estrutura de Projeto e Exemplos]]
