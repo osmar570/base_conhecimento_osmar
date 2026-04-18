@@ -18,7 +18,7 @@ Contém notas fundamentais e técnicas sobre conteinerização.
 - **Troubleshooting no Docker.md**: Exit codes, docker inspect, stats e limpeza de ambiente.
 - **Orquestração com Kubernetes.md**: Transição do Docker para orquestradores.
 
-### ☸️ Kubernetes (`/Kubernets`)
+### ☸️ Kubernetes (`/Kubernetes`)
 Uma coleção abrangente de guias e conceitos sobre orquestração de containers.
 - **Kubernetes.md**: Visão geral e conceitos fundamentais do K8s.
 - **Troubleshooting no Kubernetes.md**: Fluxo de depuração, estados de erro (CrashLoop, OOM) e comandos de inspeção.

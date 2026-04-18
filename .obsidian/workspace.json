@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernets/GitOps e CD Moderno.md",
+                "file": "GEMINI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GitOps e CD Moderno"
+              "title": "GEMINI"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernets/GitOps e CD Moderno.md",
+                "file": "GEMINI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para GitOps e CD Moderno"
+              "title": "Links inversos para GEMINI"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernets/GitOps e CD Moderno.md",
+                "file": "GEMINI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para GitOps e CD Moderno"
+              "title": "Links de saída para GEMINI"
             }
           },
           {
@@ -183,9 +183,11 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "a035a989b654b3f1",
+  "active": "bd5d081a56ab8c10",
   "lastOpenFiles": [
-    "Kubernets/Guia Prático de GitOps.md",
+    "Kubernetes/RBAC e Governança.md",
+    "Kubernetes/Guia Prático de GitOps.md",
+    "Kubernetes/GitOps e CD Moderno.md",
     "Terraform/Exemplo Completo - K8s, Rancher e Gateway API.md",
     "Terraform/Ferramentas do Ecossistema.md",
     "Terraform/Segurança e Gestão de Segredos.md",
@@ -197,23 +199,21 @@
     "Terraform/Arquitetura e Comandos do Terraform.md",
     "Terraform/Estrutura de Projeto e Exemplos.md",
     "Terraform/Terraform.md",
-    "Kubernets/Troubleshooting no Kubernetes.md",
-    "Kubernets/Service Mesh - Istio.md",
-    "Kubernets/RBAC e Governança.md",
-    "Kubernets/Rancher - Gestão Multi-Cluster.md",
-    "Kubernets/Objetos Fundamentais.md",
-    "Kubernets/Monitoramento de Nodes e Pods.md",
-    "Kubernets/Manifestos YAML e Persistência.md",
-    "Kubernets/Kubernetes.md",
-    "Kubernets/Ingress e Ingress Controllers.md",
-    "Kubernets/Helm - Gerenciador de Pacotes.md",
-    "Kubernets/GitOps e CD Moderno.md",
-    "Kubernets/Gerenciamento de Nodes (GKE).md",
-    "Kubernets/Gateway API e HTTPRoute.md",
-    "Kubernets/Estratégias de Deployment.md",
+    "Kubernetes/Troubleshooting no Kubernetes.md",
+    "Kubernetes/Service Mesh - Istio.md",
+    "Kubernetes/Rancher - Gestão Multi-Cluster.md",
+    "Kubernetes/Objetos Fundamentais.md",
+    "Kubernetes/Monitoramento de Nodes e Pods.md",
+    "Kubernetes/Manifestos YAML e Persistência.md",
+    "Kubernetes/Kubernetes.md",
+    "Kubernetes/Ingress e Ingress Controllers.md",
+    "Kubernetes/Helm - Gerenciador de Pacotes.md",
+    "Kubernetes/Gerenciamento de Nodes (GKE).md",
+    "Kubernetes/Gateway API e HTTPRoute.md",
+    "Kubernetes/Estratégias de Deployment.md",
     "Sem título.canvas",
     "Terraform",
     "Docker",
-    "Kubernets"
+    "Kubernetes"
   ]
 }
