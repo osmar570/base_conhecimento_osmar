@@ -65,6 +65,37 @@ builder.Services.AddScoped<ICriarPedidoUseCase, CriarPedidoUseCase>();
 ```
 
 ---
+
+## ⚖️ Value Object vs DTO (Diferenças Cruciais)
+
+Embora ambos pareçam "classes de dados" simples, eles vivem em camadas diferentes e possuem propósitos opostos na Clean Architecture.
+
+### 1. Value Object (Objeto de Valor)
+*   **Onde vive:** Camada de **Domain**.
+*   **O que é:** Um objeto que não possui identidade própria (ID). Ele é definido pela totalidade de seus atributos.
+*   **Características:** 
+    *   **Imutável:** Uma vez criado, seus valores não mudam. Se precisar mudar, você cria um novo objeto.
+    *   **Igualdade por valor:** Dois objetos de Endereço são iguais se todas as ruas e números forem iguais.
+    *   **Lógica de Negócio:** Pode e deve conter validações (ex: um `CPF` que se valida na criação).
+
+### 2. DTO (Data Transfer Object)
+*   **Onde vive:** Camadas de **Application** ou **WebAPI**.
+*   **O que é:** Uma "sacola de dados" usada apenas para transportar informações de um lugar para outro (ex: da API para o Caso de Uso).
+*   **Características:**
+    *   **Anêmico:** Não possui nenhuma lógica de negócio.
+    *   **Estrutura Plana:** Geralmente contém apenas propriedades simples (strings, ints) para facilitar a serialização (JSON).
+    *   **Contrato:** Define o que o cliente da API deve enviar ou o que ele vai receber.
+
+### Comparativo Rápido
+
+| Característica | Value Object | DTO |
+| :--- | :--- | :--- |
+| **Camada** | Domain | Application / WebAPI |
+| **Lógica** | Sim (Validação/Negócio) | Não (Apenas dados) |
+| **Mudança** | Imutável | Mutável (geralmente) |
+| **Finalidade** | Representar um conceito do negócio | Transportar dados entre camadas |
+
+---
 **Links Relacionados:**
 - [[Clean Architecture]]
 - [[Regra da Dependência e DIP]]
