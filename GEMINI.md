@@ -16,6 +16,7 @@ Contém notas fundamentais e técnicas sobre conteinerização.
 - **Redes no Docker.md**: Drivers de rede (Bridge, Host, Overlay) e comunicação DNS.
 - **Segurança no Docker.md**: Usuário root, limites de recursos e imagens oficiais.
 - **Troubleshooting no Docker.md**: Exit codes, docker inspect, stats e limpeza de ambiente.
+- **Docker Cheat Sheet.md**: Guia de referência rápida para comandos de containers, imagens e redes.
 - **Orquestração com Kubernetes.md**: Transição do Docker para orquestradores.
 
 ### ☸️ Kubernetes (`/Kubernetes`)
@@ -55,6 +56,19 @@ Padrões de design de software e separação de preocupações.
 - **Interface Adapters (Controllers e Gateways).md**: A camada de tradução entre o mundo externo e o núcleo do sistema.
 - **Diferença entre Clean vs Hexagonal.md**: Comparativo entre Clean Architecture e Ports and Adapters.
 - **Exemplo Prático CSharp.md**: Estrutura de Solution (.sln) e responsabilidades de cada projeto em .NET.
+
+### 🤖 LLMs (`/LLMs`)
+Inteligência Artificial e Processamento de Linguagem Natural.
+- **LLMs.md**: Arquivo de índice com conceitos fundamentais, trilha de aprendizagem e terminologia.
+- **Fundamentos de GenAI.md**: Arquitetura Transformer, mecanismo de atenção e processos de treinamento (RLHF).
+- **Prompt Engineering Avançado.md**: Técnicas de raciocínio (CoT), frameworks de estruturação (CO-STAR) e parâmetros de API.
+- **RAG (Retrieval-Augmented Generation).md**: Como conectar LLMs a dados externos usando bancos de dados vetoriais.
+- **Guia Prático de Implementação de RAG.md**: Ferramentas (LangChain, ChromaDB), passos técnicos e Python snippets.
+- **Agentes e Ferramentas.md**: Uso de LLMs como orquestradores de ações, exemplo do Gemini CLI e ciclo ReAct.
+- **Fine-tuning de LLMs.md**: Quando ajustar modelos, técnicas PEFT/LoRA e exemplos com Hugging Face.
+- **Arquitetura Modular para IA.md**: Aplicação de Clean Architecture em projetos de IA (Model Agnostic).
+- **Hospedando IAs Locais com Docker.md**: Uso de Ollama, Open WebUI e requisitos de hardware para IA local.
+- **Arquitetura de Multiagentes.md**: Colaboração entre LLMs, frameworks (CrewAI, AutoGen) e processos de orquestração.
 
 ## 🚀 Como utilizar
 

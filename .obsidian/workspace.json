@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GEMINI.md",
+                "file": "LLMs/LLMs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GEMINI"
+              "title": "LLMs"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GEMINI.md",
+                "file": "LLMs/LLMs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para GEMINI"
+              "title": "Links inversos para LLMs"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GEMINI.md",
+                "file": "LLMs/LLMs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para GEMINI"
+              "title": "Links de saída para LLMs"
             }
           },
           {
@@ -133,7 +133,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etiquetas"
             }
           },
           {
@@ -170,7 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 378.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,35 +183,36 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "bd5d081a56ab8c10",
+  "active": "a035a989b654b3f1",
   "lastOpenFiles": [
+    "LLMs/Arquitetura de Multiagentes.md",
+    "LLMs/Hospedando IAs Locais com Docker.md",
+    "LLMs/Arquitetura Modular para IA.md",
+    "LLMs/Fine-tuning de LLMs.md",
+    "LLMs/Guia Prático de Implementação de RAG.md",
+    "LLMs/Agentes e Ferramentas.md",
+    "Docker/Docker Cheat Sheet.md",
+    "LLMs/RAG (Retrieval-Augmented Generation).md",
+    "LLMs/Prompt Engineering Avançado.md",
+    "LLMs/Fundamentos de GenAI.md",
+    "LLMs/LLMs.md",
+    "LLMs",
+    "Docker/Boas Práticas e Otimização.md",
+    "Docker/Docker.md",
+    "Docker/Docker Compose.md",
+    "Docker/Introdução ao Docker e Conteinerização.md",
     "Clean Architecture/Exemplo Prático CSharp.md",
     "Clean Architecture/Diferença entre Clean vs Hexagonal.md",
-    "Clean Architecture/Interface Adapters (Controllers e Gateways).md",
     "Clean Architecture/Detalhamento das Camadas (Entities e Use Cases).md",
-    "Clean Architecture/Regra da Dependência e DIP.md",
     "Clean Architecture/Clean Architecture.md",
+    "GEMINI.md",
+    "Clean Architecture/Interface Adapters (Controllers e Gateways).md",
+    "Clean Architecture/Regra da Dependência e DIP.md",
     "Clean Architecture",
     "Kubernetes/RBAC e Governança.md",
     "Kubernetes/Guia Prático de GitOps.md",
     "Kubernetes/GitOps e CD Moderno.md",
     "Terraform/Exemplo Completo - K8s, Rancher e Gateway API.md",
-    "Terraform/Ferramentas do Ecossistema.md",
-    "Terraform/Segurança e Gestão de Segredos.md",
-    "Terraform/Terraform Import.md",
-    "Terraform/Workspaces e Ambientes.md",
-    "Terraform/Lógica Avançada e Ciclo de Vida.md",
-    "Terraform/Backend Remoto e State Locking.md",
-    "GEMINI.md",
-    "Terraform/Arquitetura e Comandos do Terraform.md",
-    "Terraform/Estrutura de Projeto e Exemplos.md",
-    "Terraform/Terraform.md",
-    "Kubernetes/Troubleshooting no Kubernetes.md",
-    "Kubernetes/Service Mesh - Istio.md",
-    "Kubernetes/Rancher - Gestão Multi-Cluster.md",
-    "Kubernetes/Objetos Fundamentais.md",
-    "Kubernetes/Monitoramento de Nodes e Pods.md",
-    "Kubernetes/Manifestos YAML e Persistência.md",
     "Sem título.canvas",
     "Terraform",
     "Docker",
