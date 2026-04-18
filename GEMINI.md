@@ -22,11 +22,20 @@ Contém notas fundamentais e técnicas sobre conteinerização.
 Uma coleção abrangente de guias e conceitos sobre orquestração de containers.
 - **Kubernetes.md**: Visão geral e conceitos fundamentais do K8s.
 - **Troubleshooting no Kubernetes.md**: Fluxo de depuração, estados de erro (CrashLoop, OOM) e comandos de inspeção.
+- **RBAC e Governança.md**: Roles, ServiceAccounts, ResourceQuotas e segurança baseada em privilégio mínimo.
+- **GitOps e CD Moderno.md**: Princípios de reconciliação contínua, Push vs Pull e ferramentas (ArgoCD/Flux).
+- **Estratégias de Deployment.md**: Rolling Update, Recreate, Blue/Green e Canary.
 - **como iniciar (Local).md**: Guia prático para Minikube, K3s e MicroK8s.
 - **como iniciar (GKE).md** & **Gerenciamento de Nodes (GKE)**: Notas específicas sobre Google Kubernetes Engine.
 - **Manifestos YAML e Persistência.md**: Exploração de recursos declarativos.
 - **Helm - Gerenciador de Pacotes.md**: Automação de deployments.
-- **Service Mesh - Istio.md** & **Gateway API**: Tópicos avançados de rede e comunicação.
+- [[Service Mesh - Istio.md]] & [[Gateway API]]: Tópicos avançados de rede e comunicação.
+
+### 🏗️ Terraform (`/Terraform`)
+Documentação sobre Infraestrutura como Código (IaC).
+- **O que é Terraform e IaC.md**: Conceitos fundamentais, Providers e o arquivo de State.
+- **Arquitetura e Comandos do Terraform.md**: O ciclo de vida (Init, Plan, Apply, Destroy) e linguagem HCL.
+- **Estrutura de Projeto e Exemplos.md**: Organização de arquivos (.tf), variáveis, módulos e exemplo de GKE.
 - **Monitoramento e Autoscaling**: Práticas de observabilidade e escalabilidade.
 
 ## 🚀 Como utilizar

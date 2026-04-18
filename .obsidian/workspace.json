@@ -188,6 +188,13 @@
   },
   "active": "5f39321f10456c77",
   "lastOpenFiles": [
+    "Terraform/Estrutura de Projeto e Exemplos.md",
+    "Terraform/Arquitetura e Comandos do Terraform.md",
+    "Terraform/O que é Terraform e IaC.md",
+    "Terraform",
+    "Kubernets/Estratégias de Deployment.md",
+    "Kubernets/GitOps e CD Moderno.md",
+    "Kubernets/RBAC e Governança.md",
     "Docker/Troubleshooting no Docker.md",
     "Kubernets/Troubleshooting no Kubernetes.md",
     "GEMINI.md",
@@ -210,12 +217,6 @@
     "Kubernets/Kubernetes.md",
     "Kubernets/Ingress e Ingress Controllers.md",
     "Kubernets/Monitoramento de Nodes e Pods.md",
-    "Kubernets/Manifestos YAML e Persistência.md",
-    "Kubernets/Helm - Gerenciador de Pacotes.md",
-    "Kubernets/como iniciar (GKE).md",
-    "GKE.md",
-    "Kubernets/Gerenciamento de Nodes (GKE).md",
-    "Kubernets/ConfigMaps e Secrets.md",
     "Kubernets"
   ]
 }
