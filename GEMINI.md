@@ -24,6 +24,7 @@ Uma coleção abrangente de guias e conceitos sobre orquestração de containers
 - **Troubleshooting no Kubernetes.md**: Fluxo de depuração, estados de erro (CrashLoop, OOM) e comandos de inspeção.
 - **RBAC e Governança.md**: Roles, ServiceAccounts, ResourceQuotas e segurança baseada em privilégio mínimo.
 - **GitOps e CD Moderno.md**: Princípios de reconciliação contínua, Push vs Pull e ferramentas (ArgoCD/Flux).
+- **Guia Prático de GitOps.md**: Instalação do Argo CD, definição de Applications e monitoramento de sincronia.
 - **Estratégias de Deployment.md**: Rolling Update, Recreate, Blue/Green e Canary.
 - **como iniciar (Local).md**: Guia prático para Minikube, K3s e MicroK8s.
 - **como iniciar (GKE).md** & **Gerenciamento de Nodes (GKE)**: Notas específicas sobre Google Kubernetes Engine.
