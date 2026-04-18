@@ -15,11 +15,13 @@ Contém notas fundamentais e técnicas sobre conteinerização.
 - **Boas Práticas e Otimização.md**: Multi-stage builds, cache de camadas e .dockerignore.
 - **Redes no Docker.md**: Drivers de rede (Bridge, Host, Overlay) e comunicação DNS.
 - **Segurança no Docker.md**: Usuário root, limites de recursos e imagens oficiais.
+- **Troubleshooting no Docker.md**: Exit codes, docker inspect, stats e limpeza de ambiente.
 - **Orquestração com Kubernetes.md**: Transição do Docker para orquestradores.
 
 ### ☸️ Kubernetes (`/Kubernets`)
 Uma coleção abrangente de guias e conceitos sobre orquestração de containers.
 - **Kubernetes.md**: Visão geral e conceitos fundamentais do K8s.
+- **Troubleshooting no Kubernetes.md**: Fluxo de depuração, estados de erro (CrashLoop, OOM) e comandos de inspeção.
 - **como iniciar (Local).md**: Guia prático para Minikube, K3s e MicroK8s.
 - **como iniciar (GKE).md** & **Gerenciamento de Nodes (GKE)**: Notas específicas sobre Google Kubernetes Engine.
 - **Manifestos YAML e Persistência.md**: Exploração de recursos declarativos.

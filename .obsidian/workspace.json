@@ -11,14 +11,17 @@
             "id": "5f39321f10456c77",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Kubernets/Gateway API e HTTPRoute.md",
-                "mode": "source",
-                "source": false
+                "file": "Sem título.canvas",
+                "viewState": {
+                  "x": 119.89453125,
+                  "y": -195.59687500000007,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "Gateway API e HTTPRoute"
+              "icon": "lucide-layout-dashboard",
+              "title": "Sem título"
             }
           }
         ]
@@ -94,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernets/Gateway API e HTTPRoute.md",
+                "file": "Sem título.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +107,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Gateway API e HTTPRoute"
+              "title": "Links inversos para Sem título"
             }
           },
           {
@@ -113,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Curso michel telo.md",
+                "file": "Sem título.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Curso michel telo"
+              "title": "Links de saída para Sem título"
             }
           },
           {
@@ -165,11 +168,12 @@
               "title": "Outline of Curso michel telo"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,13 +186,18 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "f85bf14981f2e041",
+  "active": "5f39321f10456c77",
   "lastOpenFiles": [
+    "Docker/Troubleshooting no Docker.md",
+    "Kubernets/Troubleshooting no Kubernetes.md",
+    "GEMINI.md",
+    "Sem título.canvas",
+    "Sem título.md",
+    "Kubernets/Gateway API e HTTPRoute.md",
     "Docker/Persistência de Dados (Volumes).md",
     "Docker/Segurança no Docker.md",
     "Kubernets/Objetos Fundamentais.md",
     "Kubernets/Comandos Essenciais do Kubernetes.md",
-    "GEMINI.md",
     "Docker/Boas Práticas e Otimização.md",
     "Docker/Docker Compose.md",
     "Docker/O que são Containers (Detalhes Técnicos).md",
@@ -200,7 +209,6 @@
     "Docker",
     "Kubernets/Kubernetes.md",
     "Kubernets/Ingress e Ingress Controllers.md",
-    "Kubernets/Gateway API e HTTPRoute.md",
     "Kubernets/Monitoramento de Nodes e Pods.md",
     "Kubernets/Manifestos YAML e Persistência.md",
     "Kubernets/Helm - Gerenciador de Pacotes.md",
@@ -208,10 +216,6 @@
     "GKE.md",
     "Kubernets/Gerenciamento de Nodes (GKE).md",
     "Kubernets/ConfigMaps e Secrets.md",
-    "Kubernets/Comparativo GKE vs AKS vs OKE.md",
-    "Kubernets/como iniciar (Local).md",
-    "Kubernets/Autoscaling no Kubernetes.md",
-    "Kubernets",
-    "Sem título.canvas"
+    "Kubernets"
   ]
 }
