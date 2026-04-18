@@ -1,99 +1,100 @@
-# Base de Conhecimento - Docker & Kubernetes
+# 🧠 Base de Conhecimento: Engenharia de Software & Cloud-Native
 
-Este repositório é um **Vault do Obsidian** focado em documentação técnica e notas de estudo sobre tecnologias cloud-native, especificamente Docker e Kubernetes.
+Este repositório é um **Vault do Obsidian** de nível profissional, focado em documentação técnica, padrões de arquitetura e notas de estudo sobre o ecossistema moderno de desenvolvimento e infraestrutura.
 
-## 📂 Visão Geral do Diretório
+---
 
-O projeto está organizado em dois pilares principais:
+## 📂 Organização da Base
+
+O conhecimento está estruturado em pilares fundamentais, cada um com seu guia de entrada centralizado.
 
 ### 🐳 Docker (`/Docker`)
-Contém notas fundamentais e técnicas sobre conteinerização.
-- **Introdução ao Docker e Conteinerização.md**: Guia inicial, problemas resolvidos e trilha de aprendizagem.
-- **O que são Containers (Detalhes Técnicos).md**: Explicação profunda sobre Namespaces, Cgroups, Layered File System e Runtime.
-- **O que é uma Imagem Docker.md**: Detalhes sobre a construção e estrutura de imagens.
-- **Docker Compose.md**: Gerenciamento de stacks multi-container.
-- **Boas Práticas e Otimização.md**: Multi-stage builds, cache de camadas e .dockerignore.
-- **Redes no Docker.md**: Drivers de rede (Bridge, Host, Overlay) e comunicação DNS.
-- **Segurança no Docker.md**: Usuário root, limites de recursos e imagens oficiais.
-- **Troubleshooting no Docker.md**: Exit codes, docker inspect, stats e limpeza de ambiente.
-- **Docker Cheat Sheet.md**: Guia de referência rápida para comandos de containers, imagens e redes.
-- **Orquestração com Kubernetes.md**: Transição do Docker para orquestradores.
+Conceitos de conteinerização e isolamento de processos.
+- **Introdução ao Docker e Conteinerização.md**: O ponto de partida com trilha de aprendizagem.
+- **O que são Containers (Detalhes Técnicos).md**: Kernel Linux, Namespaces e Cgroups.
+- **O que é uma Imagem Docker.md**: Dockerfiles e estrutura de camadas.
+- **Docker Compose.md**: Orquestração local de múltiplos serviços.
+- **Persistência de Dados (Volumes).md**: Diferença entre Volumes e Bind Mounts.
+- **Redes no Docker.md**: Drivers de rede e DNS interno.
+- **Boas Práticas e Otimização.md**: Multi-stage builds e cache de camadas.
+- **Segurança no Docker.md**: Privilégio mínimo e escaneamento de vulnerabilidades.
+- **Troubleshooting no Docker.md**: Diagnóstico de erros e exit codes.
+- **Docker Cheat Sheet.md**: Guia de referência rápida para comandos.
 
 ### ☸️ Kubernetes (`/Kubernetes`)
-Uma coleção abrangente de guias e conceitos sobre orquestração de containers.
-- **Kubernetes.md**: Visão geral e conceitos fundamentais do K8s.
-- **Troubleshooting no Kubernetes.md**: Fluxo de depuração, estados de erro (CrashLoop, OOM) e comandos de inspeção.
-- **RBAC e Governança.md**: Roles, ServiceAccounts, ResourceQuotas e segurança baseada em privilégio mínimo.
-- **GitOps e CD Moderno.md**: Princípios de reconciliação contínua, Push vs Pull e ferramentas (ArgoCD/Flux).
-- **Guia Prático de GitOps.md**: Instalação do Argo CD, definição de Applications e monitoramento de sincronia.
-- **Estratégias de Deployment.md**: Rolling Update, Recreate, Blue/Green e Canary.
-- **como iniciar (Local).md**: Guia prático para Minikube, K3s e MicroK8s.
-- **como iniciar (GKE).md** & **Gerenciamento de Nodes (GKE)**: Notas específicas sobre Google Kubernetes Engine.
-- **Manifestos YAML e Persistência.md**: Exploração de recursos declarativos.
-- **Helm - Gerenciador de Pacotes.md**: Automação de deployments.
-- **Gateway API e HTTPRoute.md**: Evolução do Ingress, separação de papéis e roteamento avançado.
-- **Service Mesh - Istio.md** : Tópicos avançados de comunicação.
+Orquestração de containers em escala industrial.
+- **Kubernetes.md**: Guia mestre de conceitos e arquitetura.
+- **Objetos Fundamentais.md**: Pods, Services, Deployments e ConfigMaps.
+- **Troubleshooting no Kubernetes.md**: Fluxo de depuração e estados de erro.
+- **RBAC e Governança.md**: Segurança, Roles e ServiceAccounts.
+- **GitOps e CD Moderno.md**: Reconciliação automática (ArgoCD/Flux).
+- **Guia Prático de GitOps.md**: Instalação e monitoramento do Argo CD.
+- **Estratégias de Deployment.md**: Rolling Update, Blue/Green e Canary.
+- **Gateway API e HTTPRoute.md**: A evolução moderna do roteamento de rede.
+- **Helm - Gerenciador de Pacotes.md**: Automação de manifestos.
+- **Monitoramento e Autoscaling.md**: Observabilidade e escalabilidade horizontal.
+- **como iniciar (Local).md**: Guia para Minikube, K3s e MicroK8s.
+- **como iniciar (GKE).md**: Guia para Google Kubernetes Engine.
 
 ### 🏗️ Terraform (`/Terraform`)
-Documentação sobre Infraestrutura como Código (IaC).
-- **Terraform.md**: Conceitos fundamentais, Providers e o arquivo de State.
-- **Arquitetura e Comandos do Terraform.md**: O ciclo de vida (Init, Plan, Apply, Destroy) e linguagem HCL.
-- **Backend Remoto e State Locking.md**: Colaboração em equipe, S3, GCS e travas com DynamoDB.
-- **Lógica Avançada e Ciclo de Vida.md**: Meta-arguments (count, for_each), proteção de recursos e depends_on.
-- **Workspaces e Ambientes.md**: Estratégias para Dev, Staging e Prod usando workspaces ou pastas.
-- **Terraform Import.md**: Como trazer infraestrutura existente para o controle do código.
-- **Segurança e Gestão de Segredos.md**: Integração com Secret Managers, variáveis sensitive e proteção do State.
-- **Ferramentas do Ecossistema.md**: terraform fmt, tflint e auditoria de segurança com tfsec.
-- **Estrutura de Projeto e Exemplos.md**: Organização de arquivos (.tf), variáveis, módulos e exemplo de GKE.
-- **Exemplo Completo - K8s, Rancher e Gateway API.md**: Guia prático provisionando Ubuntu, K3s, Rancher via Helm e rotas Gateway API.
-- **Monitoramento e Autoscaling**: Práticas de observabilidade e escalabilidade.
+Infraestrutura como Código (IaC) e automação de nuvem.
+- **Terraform.md**: Fundamentos, Providers e o arquivo de State.
+- **Arquitetura e Comandos do Terraform.md**: Ciclo de vida (Init, Plan, Apply).
+- **Backend Remoto e State Locking.md**: Colaboração segura em equipe.
+- **Lógica Avançada e Ciclo de Vida.md**: Meta-arguments (`for_each`, `count`).
+- **Workspaces e Ambientes.md**: Estratégias para Dev, Staging e Produção.
+- **Terraform Import.md**: Assumindo o controle de infraestrutura existente.
+- **Segurança e Gestão de Segredos.md**: Integração com Secret Managers.
+- **Ferramentas do Ecossistema.md**: Linting (tflint) e Segurança (tfsec).
+- **Exemplo Completo - K8s, Rancher e Gateway API.md**: Arquitetura real provisionada via IaC.
 
 ### 🏛️ Clean Architecture (`/Clean Architecture`)
-Padrões de design de software e separação de preocupações.
-- **Clean Architecture.md**: O arquivo de índice que explica as camadas (Entities, Use Cases) e a Regra da Dependência.
-- **Regra da Dependência e DIP.md**: Como proteger o núcleo do software usando Inversão de Dependência.
-- **Detalhamento das Camadas (Entities e Use Cases).md**: A diferença entre Regras Corporativas e Regras de Aplicação.
-- **Interface Adapters (Controllers e Gateways).md**: A camada de tradução entre o mundo externo e o núcleo do sistema.
-- **Diferença entre Clean vs Hexagonal.md**: Comparativo entre Clean Architecture e Ports and Adapters.
-- **Exemplo Prático CSharp.md**: Estrutura de Solution (.sln) e responsabilidades de cada projeto em .NET.
+Padrões de design para software sustentável e testável.
+- **Clean Architecture.md**: O arquivo mestre e a Regra da Dependência.
+- **Regra da Dependência e DIP.md**: Inversão de dependência na prática.
+- **Detalhamento das Camadas (Entities e Use Cases).md**: O núcleo do negócio.
+- **Interface Adapters (Controllers e Gateways).md**: Tradução entre camadas.
+- **Diferença entre Clean vs Hexagonal.md**: Comparativo técnico de padrões.
+- **Exemplo Prático CSharp.md**: Estrutura de Solution .NET e Value Objects vs DTOs.
 
-### 🤖 LLMs (`/LLMs`)
-Inteligência Artificial e Processamento de Linguagem Natural.
-- **LLMs.md**: Arquivo de índice com conceitos fundamentais, trilha de aprendizagem e terminologia.
-- **Fundamentos de GenAI.md**: Arquitetura Transformer, mecanismo de atenção e processos de treinamento (RLHF).
-- **Prompt Engineering Avançado.md**: Técnicas de raciocínio (CoT), frameworks de estruturação (CO-STAR) e parâmetros de API.
-- **RAG (Retrieval-Augmented Generation).md**: Como conectar LLMs a dados externos usando bancos de dados vetoriais.
-- **Guia Prático de Implementação de RAG.md**: Ferramentas (LangChain, ChromaDB), passos técnicos e Python snippets.
-- **Agentes e Ferramentas.md**: Uso de LLMs como orquestradores de ações, exemplo do Gemini CLI e ciclo ReAct.
-- **Fine-tuning de LLMs.md**: Quando ajustar modelos, técnicas PEFT/LoRA e exemplos com Hugging Face.
-- **Arquitetura Modular para IA.md**: Aplicação de Clean Architecture em projetos de IA (Model Agnostic).
-- **Hospedando IAs Locais com Docker.md**: Uso de Ollama, Open WebUI e requisitos de hardware para IA local.
-- **Arquitetura de Multiagentes.md**: Colaboração entre LLMs, frameworks (CrewAI, AutoGen) e processos de orquestração.
+### 🤖 LLMs & Inteligência Artificial (`/LLMs`)
+O estado da arte em IA Generativa e Agentes.
+- **LLMs.md**: Índice de conceitos e trilha de aprendizagem.
+- **Fundamentos de GenAI.md**: Transformers e Mecanismo de Atenção.
+- **Prompt Engineering Avançado.md**: Técnicas de raciocínio e frameworks.
+- **RAG (Retrieval-Augmented Generation).md**: Conectando LLMs a dados privados.
+- **Guia Prático de Implementação de RAG.md**: Ferramentas e código Python.
+- **Agentes e Ferramentas.md**: LLMs como orquestradores (Ciclo ReAct).
+- **Arquitetura de Multiagentes.md**: Equipes de IAs colaborativas (CrewAI).
+- **Hospedando IAs Locais com Docker.md**: Ollama e Open WebUI.
+- **Fine-tuning de LLMs.md**: Ajuste específico com PEFT e LoRA.
+- **Arquitetura Modular para IA.md**: Criando aplicações de IA desacopladas.
 
 ### 🐧 Linux (`/Linux`)
-Conhecimentos fundamentais sobre o sistema operacional base para DevOps.
-- **Linux.md**: Arquivo de índice com história, vantagens e trilha de aprendizagem.
-- **Arquitetura de Diretórios.md**: Onde ficam os arquivos? O que é /etc, /var e /home?
-- **Comandos Essenciais de Terminal.md**: Navegação, manipulação de arquivos, sistema e serviços (systemctl).
-- **Gerenciamento de Pacotes.md**: Como instalar softwares usando apt, dnf, pacman e formatos universais (Snap/Flatpak).
-- **Shell Scripting e Automação.md**: Criação de scripts .sh, variáveis, lógica e agendamento com Crontab.
-- **Automações Úteis com Shell Script.md**: Exemplos práticos de scripts para backup, limpeza, Git e produtividade.
-- **Sistema de Permissões.md**: Entidades (Dono, Grupo, Outros), rwx, chmod, chown e valores octais.
-- **Processos e Monitoramento.md**: Gerenciamento de processos (PID, kill, htop), hardware (free, df) e background jobs.
-- **Redes no Linux.md**: Diagnóstico (ip, ss, dig), firewall (UFW/IPTables) e ferramentas avançadas (nmap, tcpdump).
-- **SSH e Acesso Remoto.md**: Chaves assimétricas, segurança do servidor e ferramentas de gestão (Termius, Ansible).
-- **Gestão de Usuários e Grupos.md**: Criação de usuários, sudoers, grupos e script de automação para massa.
-- **Processamento de Texto (Grep, Sed, Awk).md**: Manipulação de logs e fluxos de texto com a tríade clássica do Linux.
+A base de toda a infraestrutura moderna.
+- **Linux.md**: Visão geral e vantagens do Kernel.
+- **Arquitetura de Diretórios.md**: O padrão FHS (/etc, /var, /home).
+- **Comandos Essenciais de Terminal.md**: Navegação e administração.
+- **SSH e Acesso Remoto.md**: Segurança e gestão de múltiplos servidores.
+- **Sistema de Permissões.md**: Gestão de rwx, usuários e grupos.
+- **Gerenciamento de Pacotes.md**: APT, DNF, Pacman e pacotes universais.
+- **Shell Scripting e Automação.md**: Criação de scripts .sh e Crontab.
+- **Automações Úteis com Shell Script.md**: Coleção de scripts prontos.
+- **Processamento de Texto (Grep, Sed, Awk).md**: Manipulação avançada de texto.
+- **Processos e Monitoramento.md**: Gestão de recursos e PID.
+- **Redes no Linux.md**: Diagnóstico e Firewall (UFW/IPTables).
 
-## 🚀 Como utilizar
+---
 
-Este repositório foi projetado para ser visualizado no **Obsidian**, aproveitando os links internos (`[[Link]]`) entre as notas.
+## 🚀 Como Utilizar
 
-1.  **Exploração**: Comece pelos arquivos `Docker/Docker.md` ou `Kubernetes/Kubernetes.md` para uma introdução aos tópicos.
-2.  **Referência Rápida**: Utilize a pasta `Kubernetes` para comandos essenciais e configurações de objetos fundamentais (Pods, Services, ConfigMaps).
-3.  **Ambientes**: Existem guias específicos para configuração local (Minikube/K3s) e em nuvem (GKE/AKS/OKE).
+Este repositório foi projetado para ser visualizado no **Obsidian**, aproveitando os links internos para navegação fluida.
+
+1.  **Início Rápido**: Comece pelos arquivos de índice em cada pasta (ex: `Linux.md` ou `Docker.md`).
+2.  **Interconexão**: Fique atento aos **WikiLinks** `[[Link]]`, eles conectam conceitos entre diferentes tecnologias.
+3.  **Scripts**: Muitos guias contêm exemplos de código e scripts prontos para uso imediato em seu terminal.
 
 ## 🛠️ Convenções
-- **Idioma:** As notas estão escritas em **Português (PT-BR)**.
-- **Sintaxe:** Utiliza-se a sintaxe padrão de Markdown com extensões do Obsidian (**WikiLinks** `[[Link]]`).
-- **Arquivos de Índice:** Para cada grande assunto (pasta), deve existir um arquivo principal com o nome exato do assunto (ex: `Docker.md`, `Kubernetes.md`, `Terraform.md`). Este arquivo deve atuar como o ponto de entrada, referenciando e contextualizando todos os outros arquivos contidos naquela pasta.
+- **Idioma:** Notas escritas em **Português (PT-BR)**.
+- **Sintaxe:** Markdown padrão + extensões Obsidian.
+- **Índice por Assunto:** Cada pasta possui um arquivo principal com o nome da pasta que atua como ponto de entrada.
