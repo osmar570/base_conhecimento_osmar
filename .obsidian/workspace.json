@@ -11,14 +11,12 @@
             "id": "82a0ccceb6b0413e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "05. Trilhas de Estudos/Arquiteto de Software.md",
-                "mode": "source",
-                "source": false
+                "path": "05. Trilhas de Estudos"
               },
               "icon": "lucide-file",
-              "title": "Arquiteto de Software"
+              "title": "05. Trilhas de Estudos"
             }
           }
         ]
@@ -105,7 +103,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05. Trilhas de Estudos/Arquiteto de Software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +112,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Arquiteto de Software"
+              "title": "Links inversos"
             }
           },
           {
@@ -124,12 +121,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05. Trilhas de Estudos/Arquiteto de Software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Arquiteto de Software"
+              "title": "Links de saída"
             }
           },
           {
@@ -195,12 +191,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "82a0ccceb6b0413e",
+  "active": "678b1f4004c10aae",
   "lastOpenFiles": [
-    "02. Engenharia de Software/Design Patterns/Design Patterns.md",
-    "05. Trilhas de Estudos/Arquiteto de Software.md",
-    "02. Engenharia de Software/Design Patterns/Catálogo de Design Patterns.md",
+    "README.md",
     "05. Trilhas de Estudos/05. Trilhas de Estudos.md",
+    "03. Plataforma e Cloud-Native/03. Plataforma e Cloud-Native.md",
+    "05. Trilhas de Estudos/Arquiteto de Software.md",
+    "02. Engenharia de Software/Design Patterns/Design Patterns.md",
+    "02. Engenharia de Software/Design Patterns/Catálogo de Design Patterns.md",
     "02. Engenharia de Software/Mensageria e Eventos.md",
     "TAREFAS.md",
     "03. Plataforma e Cloud-Native/Ferramentas de CI-CD.md",
@@ -222,8 +220,6 @@
     "05. Trilhas de Estudos",
     "01. Fundamentos/01. Fundamentos.md",
     "02. Engenharia de Software/02. Engenharia de Software.md",
-    "03. Plataforma e Cloud-Native/03. Plataforma e Cloud-Native.md",
-    "02. Engenharia de Software/Bancos de Dados.md",
     "01. Fundamentos/Git",
     "04. Inteligência Artificial/LLMs",
     "04. Inteligência Artificial",

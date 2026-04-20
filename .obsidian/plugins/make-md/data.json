@@ -39,16 +39,11 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//Tags",
     "//Engenharia de Software/Engenharia de Software/Design Patterns/Engenharia de Software/Design Patterns/Criacionais",
     "//Engenharia de Software/Engenharia de Software/Design Patterns/Engenharia de Software/Design Patterns/Estruturais",
     "//Engenharia de Software/Engenharia de Software/Design Patterns/Engenharia de Software/Design Patterns/Comportamentais",
     "//Engenharia de Software/Engenharia de Software/Design Patterns",
-    "//Engenharia de Software/Engenharia de Software/SOLID",
-    "//04. Inteligência Artificial",
-    "//02. Engenharia de Software",
-    "//05. Trilhas de Estudos",
-    "//02. Engenharia de Software/02. Engenharia de Software/Design Patterns"
+    "//Engenharia de Software/Engenharia de Software/SOLID"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
