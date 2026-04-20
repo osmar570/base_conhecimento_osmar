@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cf8bcc62031d9c63",
+        "id": "4a0b1c0d6d17e12d",
         "type": "tabs",
         "children": [
           {
-            "id": "82a0ccceb6b0413e",
+            "id": "44b0816532d1a2f6",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "05. Trilhas de Estudos"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "05. Trilhas de Estudos"
+              "title": "README"
             }
           }
         ]
@@ -103,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos"
+              "title": "Links inversos para README"
             }
           },
           {
@@ -121,11 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída"
+              "title": "Links de saída para README"
             }
           },
           {
@@ -191,14 +195,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "678b1f4004c10aae",
+  "active": "44b0816532d1a2f6",
   "lastOpenFiles": [
+    "GEMINI.md",
+    "02. Engenharia de Software/Licenças de Software.md",
     "README.md",
+    "02. Engenharia de Software/Design Patterns/Design Patterns.md",
+    "02. Engenharia de Software/Design Patterns/Criacionais/Criacionais.md",
+    "02. Engenharia de Software/Design Patterns/Catálogo de Design Patterns.md",
     "05. Trilhas de Estudos/05. Trilhas de Estudos.md",
     "03. Plataforma e Cloud-Native/03. Plataforma e Cloud-Native.md",
     "05. Trilhas de Estudos/Arquiteto de Software.md",
-    "02. Engenharia de Software/Design Patterns/Design Patterns.md",
-    "02. Engenharia de Software/Design Patterns/Catálogo de Design Patterns.md",
     "02. Engenharia de Software/Mensageria e Eventos.md",
     "TAREFAS.md",
     "03. Plataforma e Cloud-Native/Ferramentas de CI-CD.md",
@@ -216,10 +223,7 @@
     "05. Trilhas de Estudos/Product Owner.md",
     "05. Trilhas de Estudos/Scrum Master.md",
     "05. Trilhas de Estudos/Tech Lead.md",
-    "05. Trilhas de Estudos/DevOps.md",
     "05. Trilhas de Estudos",
-    "01. Fundamentos/01. Fundamentos.md",
-    "02. Engenharia de Software/02. Engenharia de Software.md",
     "01. Fundamentos/Git",
     "04. Inteligência Artificial/LLMs",
     "04. Inteligência Artificial",

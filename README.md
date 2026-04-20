@@ -20,7 +20,7 @@ A base é organizada de forma hierárquica para facilitar o aprendizado e a cons
 
 Este repositório foi otimizado para o **Obsidian**, mas pode ser lido perfeitamente no GitHub.
 
-- **Ponto de Entrada:** Comece pelo arquivo [[GEMINI.md]] ou pelos índices dentro de cada pasta.
+- **Ponto de Entrada:** Comece pelo arquivo [[GEMINI]] ou pelos índices dentro de cada pasta.
 - **Interconexão:** As notas utilizam **WikiLinks** para conectar conceitos (ex: como o SOLID se aplica na Clean Architecture).
 - **Prática:** Muitas notas contêm exemplos reais em **C#**, configurações **YAML** e scripts **Bash**.
 
@@ -35,4 +35,4 @@ Este repositório foi otimizado para o **Obsidian**, mas pode ser lido perfeitam
 ---
 
 ## 📜 Licença
-Este repositório é para fins de estudo e documentação técnica. Consulte [[02. Engenharia de Software/Licenças de Software|Licenças de Software]] para entender os modelos de distribuição.
+Este repositório é para fins de estudo e documentação técnica. Consulte `02. Engenharia de Software/Licenças de Software`  para entender os modelos de distribuição.

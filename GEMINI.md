@@ -49,7 +49,7 @@ Tecnologias de fronteira, modelos de linguagem e agentes.
 ### 🎓 05. Trilhas de Estudos (`/05. Trilhas de Estudos`)
 Roadmaps de carreira e sequenciamento de aprendizado.
 - **05. Trilhas de Estudos.md**: Índice de carreiras e trilhas.
-- **Desenvolvedor CSharp - [Junior/Pleno/Senior].md**: Trilhas de carreira .NET detalhadas por nível.
+- **Desenvolvedor CSharp - (Júnior / Pleno / Senior) .md**: Trilhas de carreira .NET detalhadas por nível.
 - **Analista de QA.md**: Trilha focada em qualidade, testes e automação.
 - **DevOps.md**: Trilha completa para engenharia de infraestrutura e automação.
 - **Arquiteto de Software.md**: Trilha focada em design sistêmico, padrões e decisões de alto nível.
