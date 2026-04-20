@@ -56,7 +56,10 @@ Conceitos fundamentais para o ciclo de vida do software e padrões de design.
 - **SOLID.md**: Índice e conceitos fundamentais dos 5 princípios.
   - **SOLID/**: Detalhamento com exemplos práticos (SRP, OCP, LSP, ISP, DIP).
 - **Design Patterns.md**: Índice e conceitos fundamentais dos padrões GoF.
-  - **Design Patterns/**: Detalhamento com exemplos em C# (Criacionais, Estruturais, Comportamentais).
+  - **Design Patterns/**: Detalhamento com exemplos em C#.
+    - **Criacionais/**: Factory Method, Abstract Factory, Singleton, Builder.
+    - **Estruturais/**: Adapter, Decorator, Proxy, Facade.
+    - **Comportamentais/**: Strategy, Observer, State, Command.
 - **Estratégia de Testes.md**: Pirâmide de testes, F.I.R.S.T, TDD e Dublês.
 - **Observabilidade e SRE.md**: Métricas, Logs, Traces e Golden Signals.
 - **Design de APIs.md**: Versionamento, Idempotência e documentação.

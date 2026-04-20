@@ -39,7 +39,10 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//Tags"
+    "//Tags",
+    "//Engenharia de Software",
+    "//Engenharia de Software/Engenharia de Software/SOLID",
+    "//Engenharia de Software/Engenharia de Software/Design Patterns"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
