@@ -39,7 +39,7 @@ Orquestração de containers em escala industrial.
 ### 🏗️ Terraform (`/Terraform`)
 Infraestrutura como Código (IaC) e automação de nuvem.
 - **Terraform.md**: Fundamentos, Providers e o arquivo de State.
-- **Arquitetura e Comandos do Terraform.md**: Ciclo de vida (Init, Plan, Apply).
+- **Arquitetura e Comandos do Terraform.md**: O ciclo de vida (Init, Plan, Apply).
 - **Backend Remoto e State Locking.md**: Colaboração segura em equipe.
 - **Lógica Avançada e Ciclo de Vida.md**: Meta-arguments (`for_each`, `count`).
 - **Workspaces e Ambientes.md**: Estratégias para Dev, Staging e Produção.
@@ -47,6 +47,13 @@ Infraestrutura como Código (IaC) e automação de nuvem.
 - **Segurança e Gestão de Segredos.md**: Integração com Secret Managers.
 - **Ferramentas do Ecossistema.md**: Linting (tflint) e Segurança (tfsec).
 - **Exemplo Completo - K8s, Rancher e Gateway API.md**: Arquitetura real provisionada via IaC.
+- **Monitoramento e Autoscaling**: Práticas de observabilidade e escalabilidade.
+
+### 📐 Engenharia de Software (`/Engenharia de Software`)
+Conceitos transversais ao desenvolvimento e aspectos legais.
+- **Engenharia de Software.md**: Índice de padrões e trilha de aprendizagem.
+- **Licenças de Software.md**: MIT, Apache, GPL e modelos de distribuição.
+- **Versão Semântica (SemVer).md**: O padrão MAJOR.MINOR.PATCH e sua importância na estabilidade do software.
 
 ### 🏛️ Clean Architecture (`/Clean Architecture`)
 Padrões de design para software sustentável e testável.
@@ -70,6 +77,12 @@ O estado da arte em IA Generativa e Agentes.
 - **Fine-tuning de LLMs.md**: Ajuste específico com PEFT e LoRA.
 - **Arquitetura Modular para IA.md**: Criando aplicações de IA desacopladas.
 
+### 📜 Git e Boas Práticas (`/Git`)
+Padrões de colaboração e versionamento de código.
+- **Git.md**: Índice de padrões, estratégias de branch e hooks.
+- **Git Cheat Sheet.md**: Guia de referência rápida para comandos de commit, branch e remoto.
+- **Conventional Commits e Commit Lint.md**: Padronização de mensagens de commit para histórico rastreável.
+
 ### 🐧 Linux (`/Linux`)
 A base de toda a infraestrutura moderna.
 - **Linux.md**: Visão geral e vantagens do Kernel.
@@ -83,6 +96,7 @@ A base de toda a infraestrutura moderna.
 - **Processamento de Texto (Grep, Sed, Awk).md**: Manipulação avançada de texto.
 - **Processos e Monitoramento.md**: Gestão de recursos e PID.
 - **Redes no Linux.md**: Diagnóstico e Firewall (UFW/IPTables).
+- **Troubleshooting no Linux.md**: Diagnóstico de logs, hardware, disco e falhas de boot.
 
 ---
 
