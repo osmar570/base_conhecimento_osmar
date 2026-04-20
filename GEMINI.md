@@ -55,7 +55,8 @@ Conceitos fundamentais para o ciclo de vida do software e padrões de design.
 - **Clean Architecture/**: Padrões de design para software sustentável (Regra da Dependência, DIP, Camadas).
 - **SOLID.md**: Índice e conceitos fundamentais dos 5 princípios.
   - **SOLID/**: Detalhamento com exemplos práticos (SRP, OCP, LSP, ISP, DIP).
-- **Design Patterns.md**: Padrões GoF (Criacionais, Estruturais e Comportamentais).
+- **Design Patterns.md**: Índice e conceitos fundamentais dos padrões GoF.
+  - **Design Patterns/**: Detalhamento com exemplos em C# (Criacionais, Estruturais, Comportamentais).
 - **Estratégia de Testes.md**: Pirâmide de testes, F.I.R.S.T, TDD e Dublês.
 - **Observabilidade e SRE.md**: Métricas, Logs, Traces e Golden Signals.
 - **Design de APIs.md**: Versionamento, Idempotência e documentação.

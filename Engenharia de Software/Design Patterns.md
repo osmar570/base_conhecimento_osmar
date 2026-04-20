@@ -4,35 +4,35 @@ Design Patterns são soluções comprovadas para problemas recorrentes no desenv
 
 ---
 
-## 🏗️ Categorias de Padrões (GoF - Gang of Four)
-
-### 1. Criacionais (Creational)
+## 🏗️ Padrões Criacionais (Creational)
 Focam em abstrair e controlar o processo de criação de objetos.
-- **Factory Method:** Define uma interface para criar um objeto, deixando as subclasses decidirem a classe concreta. Útil para desacoplar a lógica de negócio da infraestrutura.
-- **Abstract Factory:** Permite criar famílias de objetos relacionados sem especificar suas classes concretas.
-- **Singleton:** Garante que uma classe tenha apenas uma instância e fornece um ponto de acesso global. *Use com cautela para não criar dependências ocultas.*
-- **Builder:** Permite construir objetos complexos passo a passo, separando a construção da representação final.
+- [[Factory Method]]: Define uma interface para criar um objeto, deixando as subclasses decidirem.
+- [[Abstract Factory]]: Cria famílias de objetos relacionados sem especificar suas classes concretas.
+- [[Singleton]]: Garante que uma classe tenha apenas uma instância e fornece acesso global.
+- [[Builder]]: Constrói objetos complexos passo a passo com uma interface fluida.
 
-### 2. Estruturais (Structural)
+---
+
+## 🏛️ Padrões Estruturais (Structural)
 Focam em como classes e objetos são compostos para formar estruturas maiores.
-- **Adapter (Adaptador):** Permite que interfaces incompatíveis trabalhem juntas. É a base da **Arquitetura Hexagonal** (Ports and Adapters).
-- **Decorator:** Adiciona comportamentos a um objeto dinamicamente (ex: adicionar Logging ou Cache a um serviço sem alterar seu código original).
-- **Proxy:** Fornece um substituto ou marcador para outro objeto para controlar o acesso (muito usado em segurança e Lazy Loading).
-- **Facade (Fachada):** Fornece uma interface simplificada para um conjunto complexo de classes em um subsistema.
+- [[Adapter]]: Permite que interfaces incompatíveis trabalhem juntas.
+- [[Decorator]]: Adiciona comportamentos a um objeto dinamicamente (camadas extras).
+- [[Proxy]]: Atua como intermediário para controlar o acesso (Lazy Loading, Segurança).
+- [[Facade]]: Simplifica o uso de subsistemas complexos em uma única interface.
 
-### 3. Comportamentais (Behavioral)
+---
+
+## 🔄 Padrões Comportamentais (Behavioral)
 Focam na comunicação e distribuição de responsabilidades entre objetos.
-- **Strategy:** Define uma família de algoritmos, encapsula cada um e os torna intercambiáveis. Permite mudar o comportamento em tempo de execução.
-- **Observer (Observador):** Define uma dependência um-para-muitos, notificando mudanças de estado. Essencial para sistemas **Event-Driven**.
-- **State:** Permite que um objeto altere seu comportamento quando seu estado interno muda.
-- **Command:** Encapsula uma solicitação como um objeto, permitindo parametrizar clientes com diferentes solicitações e suportar operações reversíveis (Undo/Redo).
+- [[Strategy]]: Torna algoritmos intercambiáveis em tempo de execução.
+- [[Observer]]: Notifica múltiplos objetos sobre mudanças de estado (Event-Driven).
+- [[State]]: Altera o comportamento de um objeto conforme seu estado interno muda.
+- [[Command]]: Encapsula uma solicitação como um objeto (suporta Undo/Redo).
 
 ---
 
 ## 🚀 Quando Usar Design Patterns?
-
-- **Não force padrões:** Aplicar padrões prematuramente gera "Overengineering" (complexidade desnecessária).
-- **Resolva o problema primeiro:** Identifique o ponto de dor (duplicação, rigidez, fragilidade) e então aplique o padrão que resolve aquela dor específica.
+- **Resolva o problema primeiro:** Não force padrões onde eles não são necessários. Use-os para combater a rigidez, a fragilidade ou a duplicação do código.
 - **Conheça o SOLID:** A maioria dos padrões de projeto são aplicações diretas dos princípios SOLID para resolver problemas específicos de flexibilidade.
 
 ---
