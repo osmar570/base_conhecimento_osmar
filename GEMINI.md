@@ -50,19 +50,20 @@ Infraestrutura como Código (IaC) e automação de nuvem.
 - **Monitoramento e Autoscaling**: Práticas de observabilidade e escalabilidade.
 
 ### 📐 Engenharia de Software (`/Engenharia de Software`)
-Conceitos transversais ao desenvolvimento e aspectos legais.
+Conceitos fundamentais para o ciclo de vida do software e padrões de design.
 - **Engenharia de Software.md**: Índice de padrões e trilha de aprendizagem.
+- **Clean Architecture/**: Padrões de design para software sustentável (Regra da Dependência, DIP, Camadas).
+- **SOLID.md**: Índice e conceitos fundamentais dos 5 princípios.
+  - **SOLID/**: Detalhamento com exemplos práticos (SRP, OCP, LSP, ISP, DIP).
+- **Design Patterns.md**: Padrões GoF (Criacionais, Estruturais e Comportamentais).
+- **Estratégia de Testes.md**: Pirâmide de testes, F.I.R.S.T, TDD e Dublês.
+- **Observabilidade e SRE.md**: Métricas, Logs, Traces e Golden Signals.
+- **Design de APIs.md**: Versionamento, Idempotência e documentação.
+- **Tipos de APIs.md**: Comparativo entre REST, gRPC e GraphQL.
+- **Bancos de Dados.md**: Teorema CAP, SQL vs NoSQL e Migrations.
+- **Metodologias Ágeis e Processos.md**: Scrum, Kanban, XP e Trunk Based Development.
 - **Licenças de Software.md**: MIT, Apache, GPL e modelos de distribuição.
-- **Versão Semântica (SemVer).md**: O padrão MAJOR.MINOR.PATCH e sua importância na estabilidade do software.
-
-### 🏛️ Clean Architecture (`/Clean Architecture`)
-Padrões de design para software sustentável e testável.
-- **Clean Architecture.md**: O arquivo mestre e a Regra da Dependência.
-- **Regra da Dependência e DIP.md**: Inversão de dependência na prática.
-- **Detalhamento das Camadas (Entities e Use Cases).md**: O núcleo do negócio.
-- **Interface Adapters (Controllers e Gateways).md**: Tradução entre camadas.
-- **Diferença entre Clean vs Hexagonal.md**: Comparativo técnico de padrões.
-- **Exemplo Prático CSharp.md**: Estrutura de Solution .NET e Value Objects vs DTOs.
+- **Versão Semântica (SemVer).md**: O padrão MAJOR.MINOR.PATCH e sua importância.
 
 ### 🤖 LLMs & Inteligência Artificial (`/LLMs`)
 O estado da arte em IA Generativa e Agentes.

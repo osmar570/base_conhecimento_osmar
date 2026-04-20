@@ -1,36 +1,47 @@
 # Linux
 
-O **Linux** não é apenas um sistema operacional, mas um **Kernel** (núcleo) de código aberto que serve de base para diversas distribuições (Ubuntu, CentOS, Debian, etc.). Criado por Linus Torvalds em 1991, ele se tornou o padrão absoluto para servidores, containers e computação em nuvem.
-
-## 1. O que é o Linux?
-
-O Linux é o intermediário entre o hardware do computador e os aplicativos que você roda. Ele gerencia memória, processamento e permissões de forma extremamente eficiente. Quando falamos "usar Linux", geralmente estamos nos referindo a uma **Distribuição Linux**, que combina o Kernel com um conjunto de ferramentas e interfaces.
-
-## 2. Vantagens de usar Linux
-
-*   **Código Aberto (Open Source):** Qualquer pessoa pode inspecionar, modificar e melhorar o código. Isso gera uma comunidade gigante de suporte e segurança.
-*   **Segurança e Permissões:** O sistema de permissões do Linux é rigoroso por natureza, o que o torna muito menos vulnerável a vírus e malwares em comparação ao Windows.
-*   **Performance:** Consome muito menos recursos de hardware, permitindo que servidores rodem por anos sem precisar de reinicialização.
-*   **Gratuidade:** A maioria das distribuições é gratuita, o que reduz drasticamente custos de infraestrutura.
-*   **Terminal Poderoso:** A linha de comando (Shell/Bash) permite automatizar tarefas complexas que seriam impossíveis via interface gráfica.
+O **Linux** é a base de toda a infraestrutura moderna de nuvem, containers e servidores. Dominar o Linux é o primeiro passo para qualquer engenheiro de software ou DevOps.
 
 ---
 
-## 🗺️ Trilha de Aprendizagem em Linux
+## 🗺️ Trilha de Aprendizagem
 
-Para dominar o Linux do zero ao nível profissional, seguiremos esta ordem:
+### 1. Fundamentos e Navegação
+Entenda a filosofia do sistema e como se mover nele.
+*   [[Arquitetura de Diretórios]]: O padrão FHS (/etc, /var, /home).
+*   [[Comandos Essenciais de Terminal]]: Navegação, manipulação de arquivos e ajuda.
+*   [[Processamento de Texto (Grep, Sed, Awk)]]: Filtros e manipulação avançada de dados.
 
-1.  **Fundamentos e Distribuições:** Entender o Kernel e escolher a distro certa (esta nota).
-2.  **Arquitetura de Diretórios:** Onde ficam os arquivos? O que é `/etc`, `/var` e `/home`?
-3.  **Comandos Essenciais:** Aprender a navegar e manipular arquivos via terminal.
-4.  **Permissões de Arquivos:** Dominar o `chmod`, `chown` e o sistema de usuários.
-5.  **Gerenciamento de Pacotes:** Como instalar softwares via `apt`, `yum` ou `pacman`.
-6.  **Processos e Monitoramento:** Como ver o que está rodando e gerenciar recursos.
-7.  **Shell Scripting:** Automatizando tarefas rotineiras com scripts.
-8.  **Redes no Linux:** Entender IPs, SSH, Firewalls e portas.
+### 2. Administração do Sistema
+Gerencie quem pode fazer o quê e como o software é instalado.
+*   [[Sistema de Permissões]]: Gestão de rwx, donos e grupos (chmod, chown).
+*   [[Gestão de Usuários e Grupos]]: Criando usuários, sudo e políticas de acesso.
+*   [[Gerenciamento de Pacotes]]: Como instalar softwares (APT, DNF, Pacman).
+
+### 3. Operação e Monitoramento
+Mantenha o sistema saudável e entenda o que está acontecendo.
+*   [[Processos e Monitoramento]]: Gestão de recursos, CPU, Memória e PIDs.
+*   [[Troubleshooting no Linux]]: Diagnóstico de logs, disco e falhas comuns.
+
+### 4. Redes e Acesso Remoto
+Conecte seu servidor ao mundo com segurança.
+*   [[Redes no Linux]]: Diagnóstico, IP, Portas e Firewall (UFW/IPTables).
+*   [[SSH e Acesso Remoto]]: Chaves SSH, túneis e segurança em acessos externos.
+
+### 5. Automação (DevOps Mindset)
+Não faça a mesma tarefa duas vezes; automatize.
+*   [[Shell Scripting e Automação]]: Criação de scripts .sh e Crontab.
+*   [[Automações Úteis com Shell Script]]: Coleção de scripts prontos para uso.
+
+---
+
+## 🚀 Por que o Linux domina o mundo?
+*   **Kernel Monolítico e Modular:** Eficiente e expansível.
+*   **Abstração de Arquivos:** "No Linux, tudo é um arquivo" (inclusive o hardware).
+*   **Estabilidade e Segurança:** O sistema de permissões rígido e a estabilidade do Kernel permitem tempos de atividade (uptime) de anos.
 
 ---
 **Links Relacionados:**
-- [[Docker]] (Roda nativamente sobre o Kernel Linux)
-- [[Kubernetes]] (A orquestração de nós Linux)
-- [[Terraform]] (Provisionando servidores Linux na nuvem)
+- [[Docker]] (Containers utilizam Namespaces e Cgroups do Kernel Linux)
+- [[Kubernetes]] (Orquestração de nós baseados em Linux)
+- [[Engenharia de Software]] (Onde o ciclo de vida do software se encontra com o SO)
