@@ -20,8 +20,13 @@ A lógica de design, qualidade e construção de software de alta performance.
 - **Clean Architecture/**: Design sustentável e desacoplado.
 - **SOLID/**: Princípios e exemplos práticos (SRP, OCP, LSP, ISP, DIP).
 - **Design Patterns/**: Padrões GoF detalhados com exemplos em C#.
+- **Padrões de Microserviços.md**: CQRS, Sagas, API Gateway e BFF.
 - **Estratégia de Testes.md**: Garantia de qualidade e TDD.
+- **Autenticação e Segurança.md**: OAuth2, OIDC, JWT e proteção de APIs.
+- **Gestão de Produto.md**: Discovery, Priorização (RICE, MoSCoW) e Story Mapping.
+- **Liderança e Documentação.md**: ADRs e Gestão de Dívida Técnica.
 - **Design de APIs.md**: REST, gRPC, GraphQL e Versionamento.
+- **Mensageria e Eventos.md**: Comunicação Assíncrona, Pub/Sub, RabbitMQ e Kafka.
 - **Bancos de Dados.md**: SQL, NoSQL, Teorema CAP e Migrations.
 - **Metodologias Ágeis e Processos.md**: Scrum, Kanban, XP e Delivery.
 
