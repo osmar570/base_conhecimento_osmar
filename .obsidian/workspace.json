@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TAREFAS.md",
+                "file": "02. Engenharia de Software/Mensageria e Eventos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TAREFAS"
+              "title": "Mensageria e Eventos"
             }
           }
         ]
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TAREFAS.md",
+                "file": "02. Engenharia de Software/Mensageria e Eventos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para TAREFAS"
+              "title": "Links inversos para Mensageria e Eventos"
             }
           },
           {
@@ -124,12 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TAREFAS.md",
+                "file": "02. Engenharia de Software/Mensageria e Eventos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para TAREFAS"
+              "title": "Links de saída para Mensageria e Eventos"
             }
           },
           {
@@ -197,13 +197,13 @@
   },
   "active": "3e3c6b6aad302a88",
   "lastOpenFiles": [
+    "TAREFAS.md",
     "03. Plataforma e Cloud-Native/Ferramentas de CI-CD.md",
     "03. Plataforma e Cloud-Native/Redes para DevOps.md",
     "02. Engenharia de Software/Padrões de Microserviços.md",
     "02. Engenharia de Software/Mensageria e Eventos.md",
     "02. Engenharia de Software/Liderança e Documentação.md",
     "02. Engenharia de Software/Gestão de Produto.md",
-    "TAREFAS.md",
     "02. Engenharia de Software/Autenticação e Segurança.md",
     "04. Inteligência Artificial/04. Inteligência Artificial.md",
     "05. Trilhas de Estudos/Analista de QA.md",
