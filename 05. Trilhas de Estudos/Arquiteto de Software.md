@@ -9,7 +9,7 @@ Antes de desenhar sistemas complexos, é preciso dominar a qualidade do código.
 1.  **SOLID:** A base para qualquer código orientado a objetos de qualidade.
     - [[02. Engenharia de Software/SOLID/SOLID|Guia de SOLID]]
 2.  **Design Patterns:** Padrões comprovados para problemas recorrentes.
-    - [[02. Engenharia de Software/Design Patterns/Design Patterns|Catálogo de Design Patterns]]
+    - [[02. Engenharia de Software/Design Patterns/Catálogo de Design Patterns|Catálogo de Design Patterns]]
 
 ## 🏛️ Fase 2: Padrões Arquiteturais (Macro-Arquitetura)
 Como organizar o sistema como um todo.

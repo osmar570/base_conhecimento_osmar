@@ -8,7 +8,7 @@ O Tech Lead (Líder Técnico) é um engenheiro sênior responsável por garantir
 O Tech Lead deve ser a referência técnica. Não precisa saber tudo, mas deve saber como chegar na solução.
 1.  **Princípios e Padrões:** Dominar a base para revisar códigos e guiar o time.
     - [[02. Engenharia de Software/SOLID/SOLID|Guia de SOLID]]
-    - [[02. Engenharia de Software/Design Patterns/Design Patterns|Design Patterns]]
+    - [[02. Engenharia de Software/Design Patterns/Catálogo de Design Patterns|Design Patterns]]
 2.  **Arquitetura:** Garantir que o time siga padrões sustentáveis.
     - [[02. Engenharia de Software/Clean Architecture/Clean Architecture|Clean Architecture]]
 

@@ -10,7 +10,7 @@ O desenvolvedor Pleno já domina a ferramenta e agora foca na qualidade, manuten
 - **SOLID:** Aplicação rigorosa dos 5 princípios no dia a dia.
     - [[02. Engenharia de Software/SOLID/SOLID|Detalhamento SOLID]]
 - **Design Patterns:** Uso de Strategy, Factory, Observer e Decorator para resolver problemas estruturais.
-    - [[02. Engenharia de Software/Design Patterns/Design Patterns|Catálogo de Design Patterns]]
+    - [[02. Engenharia de Software/Design Patterns/Catálogo de Design Patterns|Catálogo de Design Patterns]]
 - **Testes:** Domínio de Testes Unitários e de Integração (xUnit, Moq, FluentAssertions).
     - [[02. Engenharia de Software/Estratégia de Testes|Estratégias de Testes]]
 
