@@ -41,8 +41,11 @@
     "/",
     "//Tags",
     "//Engenharia de Software",
-    "//Engenharia de Software/Engenharia de Software/SOLID",
-    "//Engenharia de Software/Engenharia de Software/Design Patterns"
+    "//Engenharia de Software/Engenharia de Software/Design Patterns/Engenharia de Software/Design Patterns/Criacionais",
+    "//Engenharia de Software/Engenharia de Software/Design Patterns/Engenharia de Software/Design Patterns/Estruturais",
+    "//Engenharia de Software/Engenharia de Software/Design Patterns/Engenharia de Software/Design Patterns/Comportamentais",
+    "//Engenharia de Software/Engenharia de Software/Design Patterns",
+    "//Engenharia de Software/Engenharia de Software/SOLID"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

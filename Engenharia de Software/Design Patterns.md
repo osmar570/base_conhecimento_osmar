@@ -6,28 +6,31 @@ Design Patterns são soluções comprovadas para problemas recorrentes no desenv
 
 ## 🏗️ Padrões Criacionais (Creational)
 Focam em abstrair e controlar o processo de criação de objetos.
-- [[Criacionais/Factory Method|Factory Method]]: Define uma interface para criar um objeto, deixando as subclasses decidirem.
-- [[Criacionais/Abstract Factory|Abstract Factory]]: Cria famílias de objetos relacionados sem especificar suas classes concretas.
-- [[Criacionais/Singleton|Singleton]]: Garante que uma classe tenha apenas uma instância e fornece acesso global.
-- [[Criacionais/Builder|Builder]]: Constrói objetos complexos passo a passo com uma interface fluida.
+- **[[Criacionais|O que são Padrões Criacionais?]]**
+- [[Criacionais/Factory Method|Factory Method]]
+- [[Criacionais/Abstract Factory|Abstract Factory]]
+- [[Criacionais/Singleton|Singleton]]
+- [[Criacionais/Builder|Builder]]
 
 ---
 
 ## 🏛️ Padrões Estruturais (Structural)
 Focam em como classes e objetos são compostos para formar estruturas maiores.
-- [[Estruturais/Adapter|Adapter]]: Permite que interfaces incompatíveis trabalhem juntas.
-- [[Estruturais/Decorator|Decorator]]: Adiciona comportamentos a um objeto dinamicamente (camadas extras).
-- [[Estruturais/Proxy|Proxy]]: Atua como intermediário para controlar o acesso (Lazy Loading, Segurança).
-- [[Estruturais/Facade|Facade]]: Simplifica o uso de subsistemas complexos em uma única interface.
+- **[[Estruturais|O que são Padrões Estruturais?]]**
+- [[Estruturais/Adapter|Adapter]]
+- [[Estruturais/Decorator|Decorator]]
+- [[Estruturais/Proxy|Proxy]]
+- [[Estruturais/Facade|Facade]]
 
 ---
 
 ## 🔄 Padrões Comportamentais (Behavioral)
 Focam na comunicação e distribuição de responsabilidades entre objetos.
-- [[Comportamentais/Strategy|Strategy]]: Torna algoritmos intercambiáveis em tempo de execução.
-- [[Comportamentais/Observer|Observer]]: Notifica múltiplos objetos sobre mudanças de estado (Event-Driven).
-- [[Comportamentais/State|State]]: Altera o comportamento de um objeto conforme seu estado interno muda.
-- [[Comportamentais/Command|Command]]: Encapsula uma solicitação como um objeto (suporta Undo/Redo).
+- **[[Comportamentais|O que são Padrões Comportamentais?]]**
+- [[Comportamentais/Strategy|Strategy]]
+- [[Comportamentais/Observer|Observer]]
+- [[Comportamentais/State|State]]
+- [[Comportamentais/Command|Command]]
 
 ---
 
