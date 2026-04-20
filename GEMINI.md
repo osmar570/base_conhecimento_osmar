@@ -36,6 +36,8 @@ Onde e como o software é executado, entregue e monitorado.
 - **Docker/**: Conteinerização e isolamento de processos.
 - **Kubernetes/**: Orquestração de containers em escala industrial.
 - **Terraform/**: Infraestrutura como Código (IaC) e automação.
+- **Redes para DevOps.md**: DNS, Protocolos e Segurança de tráfego.
+- **Ferramentas de CI-CD.md**: Automação de builds, testes e entregas.
 - **Observabilidade e SRE.md**: Monitoramento, Logs, Traces e Estabilidade.
 
 ### 🤖 04. Inteligência Artificial (`/04. Inteligência Artificial`)
