@@ -4,107 +4,39 @@ Este repositório é um **Vault do Obsidian** de nível profissional, focado em 
 
 ---
 
-## 📂 Organização da Base
+## 📂 Organização da Base (Os 4 Pilares)
 
-O conhecimento está estruturado em pilares fundamentais, cada um com seu guia de entrada centralizado.
+O conhecimento está estruturado em pilares fundamentais, facilitando a navegação e a descoberta de temas relacionados.
 
-### 🐳 Docker (`/Docker`)
-Conceitos de conteinerização e isolamento de processos.
-- **Introdução ao Docker e Conteinerização.md**: O ponto de partida com trilha de aprendizagem.
-- **O que são Containers (Detalhes Técnicos).md**: Kernel Linux, Namespaces e Cgroups.
-- **O que é uma Imagem Docker.md**: Dockerfiles e estrutura de camadas.
-- **Docker Compose.md**: Orquestração local de múltiplos serviços.
-- **Persistência de Dados (Volumes).md**: Diferença entre Volumes e Bind Mounts.
-- **Redes no Docker.md**: Drivers de rede e DNS interno.
-- **Boas Práticas e Otimização.md**: Multi-stage builds e cache de camadas.
-- **Segurança no Docker.md**: Privilégio mínimo e escaneamento de vulnerabilidades.
-- **Troubleshooting no Docker.md**: Diagnóstico de erros e exit codes.
-- **Docker Cheat Sheet.md**: Guia de referência rápida para comandos.
+### 🏗️ 01. Fundamentos e Sistemas (`/01. Fundamentos`)
+A base tecnológica que sustenta toda a infraestrutura moderna.
+- **01. Fundamentos.md**: Guia mestre de sistemas e versionamento.
+- **Linux/**: O sistema operacional e o Kernel Linux.
+- **Git/**: Versionamento, padrões de commit e estratégias de branch.
 
-### ☸️ Kubernetes (`/Kubernetes`)
-Orquestração de containers em escala industrial.
-- **Kubernetes.md**: Guia mestre de conceitos e arquitetura.
-- **Objetos Fundamentais.md**: Pods, Services, Deployments e ConfigMaps.
-- **Troubleshooting no Kubernetes.md**: Fluxo de depuração e estados de erro.
-- **RBAC e Governança.md**: Segurança, Roles e ServiceAccounts.
-- **GitOps e CD Moderno.md**: Reconciliação automática (ArgoCD/Flux).
-- **Guia Prático de GitOps.md**: Instalação e monitoramento do Argo CD.
-- **Estratégias de Deployment.md**: Rolling Update, Blue/Green e Canary.
-- **Gateway API e HTTPRoute.md**: A evolução moderna do roteamento de rede.
-- **Helm - Gerenciador de Pacotes.md**: Automação de manifestos.
-- **Monitoramento e Autoscaling.md**: Observabilidade e escalabilidade horizontal.
-- **como iniciar (Local).md**: Guia para Minikube, K3s e MicroK8s.
-- **como iniciar (GKE).md**: Guia para Google Kubernetes Engine.
+### 📐 02. Engenharia de Software (`/02. Engenharia de Software`)
+A lógica de design, qualidade e construção de software de alta performance.
+- **02. Engenharia de Software.md**: Guia mestre de padrões e arquitetura.
+- **Clean Architecture/**: Design sustentável e desacoplado.
+- **SOLID/**: Princípios e exemplos práticos (SRP, OCP, LSP, ISP, DIP).
+- **Design Patterns/**: Padrões GoF detalhados com exemplos em C#.
+- **Estratégia de Testes.md**: Garantia de qualidade e TDD.
+- **Design de APIs.md**: REST, gRPC, GraphQL e Versionamento.
+- **Bancos de Dados.md**: SQL, NoSQL, Teorema CAP e Migrations.
+- **Metodologias Ágeis e Processos.md**: Scrum, Kanban, XP e Delivery.
 
-### 🏗️ Terraform (`/Terraform`)
-Infraestrutura como Código (IaC) e automação de nuvem.
-- **Terraform.md**: Fundamentos, Providers e o arquivo de State.
-- **Arquitetura e Comandos do Terraform.md**: O ciclo de vida (Init, Plan, Apply).
-- **Backend Remoto e State Locking.md**: Colaboração segura em equipe.
-- **Lógica Avançada e Ciclo de Vida.md**: Meta-arguments (`for_each`, `count`).
-- **Workspaces e Ambientes.md**: Estratégias para Dev, Staging e Produção.
-- **Terraform Import.md**: Assumindo o controle de infraestrutura existente.
-- **Segurança e Gestão de Segredos.md**: Integração com Secret Managers.
-- **Ferramentas do Ecossistema.md**: Linting (tflint) e Segurança (tfsec).
-- **Exemplo Completo - K8s, Rancher e Gateway API.md**: Arquitetura real provisionada via IaC.
-- **Monitoramento e Autoscaling**: Práticas de observabilidade e escalabilidade.
+### ☁️ 03. Plataforma e Cloud-Native (`/03. Plataforma e Cloud-Native`)
+Onde e como o software é executado, entregue e monitorado.
+- **03. Plataforma e Cloud-Native.md**: Guia mestre de infraestrutura e SRE.
+- **Docker/**: Conteinerização e isolamento de processos.
+- **Kubernetes/**: Orquestração de containers em escala industrial.
+- **Terraform/**: Infraestrutura como Código (IaC) e automação.
+- **Observabilidade e SRE.md**: Monitoramento, Logs, Traces e Estabilidade.
 
-### 📐 Engenharia de Software (`/Engenharia de Software`)
-Conceitos fundamentais para o ciclo de vida do software e padrões de design.
-- **Engenharia de Software.md**: Índice de padrões e trilha de aprendizagem.
-- **Clean Architecture/**: Padrões de design para software sustentável (Regra da Dependência, DIP, Camadas).
-- **SOLID.md**: Índice e conceitos fundamentais dos 5 princípios.
-  - **SOLID/**: Detalhamento com exemplos práticos (SRP, OCP, LSP, ISP, DIP).
-- **Design Patterns.md**: Índice e conceitos fundamentais dos padrões GoF.
-  - **Design Patterns/**: Detalhamento com exemplos em C#.
-    - **Criacionais.md**: O que são padrões criacionais e qual problema resolvem.
-    - **Criacionais/**: Factory Method, Abstract Factory, Singleton, Builder.
-    - **Estruturais.md**: O que são padrões estruturais e qual problema resolvem.
-    - **Estruturais/**: Adapter, Decorator, Proxy, Facade.
-    - **Comportamentais.md**: O que são padrões comportamentais e qual problema resolvem.
-    - **Comportamentais/**: Strategy, Observer, State, Command.
-- **Estratégia de Testes.md**: Pirâmide de testes, F.I.R.S.T, TDD e Dublês.
-- **Observabilidade e SRE.md**: Métricas, Logs, Traces e Golden Signals.
-- **Design de APIs.md**: Versionamento, Idempotência e documentação.
-- **Tipos de APIs.md**: Comparativo entre REST, gRPC e GraphQL.
-- **Bancos de Dados.md**: Teorema CAP, SQL vs NoSQL e Migrations.
-- **Metodologias Ágeis e Processos.md**: Scrum, Kanban, XP e Trunk Based Development.
-- **Licenças de Software.md**: MIT, Apache, GPL e modelos de distribuição.
-- **Versão Semântica (SemVer).md**: O padrão MAJOR.MINOR.PATCH e sua importância.
-
-### 🤖 LLMs & Inteligência Artificial (`/LLMs`)
-O estado da arte em IA Generativa e Agentes.
-- **LLMs.md**: Índice de conceitos e trilha de aprendizagem.
-- **Fundamentos de GenAI.md**: Transformers e Mecanismo de Atenção.
-- **Prompt Engineering Avançado.md**: Técnicas de raciocínio e frameworks.
-- **RAG (Retrieval-Augmented Generation).md**: Conectando LLMs a dados privados.
-- **Guia Prático de Implementação de RAG.md**: Ferramentas e código Python.
-- **Agentes e Ferramentas.md**: LLMs como orquestradores (Ciclo ReAct).
-- **Arquitetura de Multiagentes.md**: Equipes de IAs colaborativas (CrewAI).
-- **Hospedando IAs Locais com Docker.md**: Ollama e Open WebUI.
-- **Fine-tuning de LLMs.md**: Ajuste específico com PEFT e LoRA.
-- **Arquitetura Modular para IA.md**: Criando aplicações de IA desacopladas.
-
-### 📜 Git e Boas Práticas (`/Git`)
-Padrões de colaboração e versionamento de código.
-- **Git.md**: Índice de padrões, estratégias de branch e hooks.
-- **Git Cheat Sheet.md**: Guia de referência rápida para comandos de commit, branch e remoto.
-- **Conventional Commits e Commit Lint.md**: Padronização de mensagens de commit para histórico rastreável.
-
-### 🐧 Linux (`/Linux`)
-A base de toda a infraestrutura moderna.
-- **Linux.md**: Visão geral e vantagens do Kernel.
-- **Arquitetura de Diretórios.md**: O padrão FHS (/etc, /var, /home).
-- **Comandos Essenciais de Terminal.md**: Navegação e administração.
-- **SSH e Acesso Remoto.md**: Segurança e gestão de múltiplos servidores.
-- **Sistema de Permissões.md**: Gestão de rwx, usuários e grupos.
-- **Gerenciamento de Pacotes.md**: APT, DNF, Pacman e pacotes universais.
-- **Shell Scripting e Automação.md**: Criação de scripts .sh e Crontab.
-- **Automações Úteis com Shell Script.md**: Coleção de scripts prontos.
-- **Processamento de Texto (Grep, Sed, Awk).md**: Manipulação avançada de texto.
-- **Processos e Monitoramento.md**: Gestão de recursos e PID.
-- **Redes no Linux.md**: Diagnóstico e Firewall (UFW/IPTables).
-- **Troubleshooting no Linux.md**: Diagnóstico de logs, hardware, disco e falhas de boot.
+### 🤖 04. Inteligência Artificial (`/04. Inteligência Artificial`)
+Tecnologias de fronteira, modelos de linguagem e agentes.
+- **04. Inteligência Artificial.md**: Guia mestre de IA e Dados.
+- **LLMs/**: Índice, Fundamentos de GenAI, Prompt Engineering, RAG e Agentes.
 
 ---
 
@@ -112,11 +44,10 @@ A base de toda a infraestrutura moderna.
 
 Este repositório foi projetado para ser visualizado no **Obsidian**, aproveitando os links internos para navegação fluida.
 
-1.  **Início Rápido**: Comece pelos arquivos de índice em cada pasta (ex: `Linux.md` ou `Docker.md`).
+1.  **Início Rápido**: Comece pelos arquivos de índice em cada pilar ou tecnologia.
 2.  **Interconexão**: Fique atento aos **WikiLinks** `[[Link]]`, eles conectam conceitos entre diferentes tecnologias.
-3.  **Scripts**: Muitos guias contêm exemplos de código e scripts prontos para uso imediato em seu terminal.
 
 ## 🛠️ Convenções
 - **Idioma:** Notas escritas em **Português (PT-BR)**.
 - **Sintaxe:** Markdown padrão + extensões Obsidian.
-- **Índice por Assunto:** Cada pasta possui um arquivo principal com o nome da pasta que atua como ponto de entrada.
+- **Índice por Assunto:** Cada pasta possui um arquivo principal que atua como ponto de entrada.

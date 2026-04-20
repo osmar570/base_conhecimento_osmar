@@ -11,14 +11,12 @@
             "id": "3e3c6b6aad302a88",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "LLMs/Arquitetura Modular para IA.md",
-                "mode": "source",
-                "source": false
+                "path": "04. Inteligência Artificial"
               },
               "icon": "lucide-file",
-              "title": "Arquitetura Modular para IA"
+              "title": "04. Inteligência Artificial"
             }
           }
         ]
@@ -105,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLMs/Arquitetura Modular para IA.md",
+                "file": "04. Inteligência Artificial/04. Inteligência Artificial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Arquitetura Modular para IA"
+              "title": "Links inversos para 04. Inteligência Artificial"
             }
           },
           {
@@ -124,12 +122,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLMs/Arquitetura Modular para IA.md",
+                "file": "04. Inteligência Artificial/04. Inteligência Artificial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Arquitetura Modular para IA"
+              "title": "Links de saída para 04. Inteligência Artificial"
             }
           },
           {
@@ -195,44 +193,44 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3e3c6b6aad302a88",
+  "active": "c0e63324c2130cf4",
   "lastOpenFiles": [
-    "Engenharia de Software/SOLID/SOLID.md",
-    "Engenharia de Software/SOLID/SRP - Single Responsibility Principle.md",
-    "Engenharia de Software/Design Patterns/Estruturais/Estruturais.md",
-    "Engenharia de Software/Design Patterns/Criacionais/Criacionais.md",
-    "Engenharia de Software/Design Patterns/Comportamentais/Comportamentais.md",
-    "Engenharia de Software/Engenharia de Software.md",
-    "Engenharia de Software/Design de APIs.md",
-    "Engenharia de Software/Design Patterns.md",
-    "Engenharia de Software/SOLID/OCP - Open-Closed Principle.md",
-    "Engenharia de Software/Bancos de Dados.md",
-    "Engenharia de Software/Clean Architecture/Clean Architecture.md",
-    "Engenharia de Software/Design Patterns/Criacionais/Builder.md",
-    "Engenharia de Software/Design Patterns/Command.md",
-    "Engenharia de Software/Design Patterns/Comportamentais/Command.md",
-    "Engenharia de Software/Design Patterns/Comportamentais/State.md",
-    "Engenharia de Software/Design Patterns/Comportamentais/Observer.md",
-    "Engenharia de Software/Design Patterns/Comportamentais/Strategy.md",
-    "Engenharia de Software/Design Patterns/Estruturais/Facade.md",
-    "Engenharia de Software/Design Patterns/Estruturais/Proxy.md",
-    "Engenharia de Software/Design Patterns/Estruturais/Decorator.md",
-    "Engenharia de Software/Design Patterns/Estruturais/Adapter.md",
-    "Engenharia de Software/Design Patterns/Criacionais/Singleton.md",
-    "Engenharia de Software/Design Patterns/Criacionais/Abstract Factory.md",
-    "Engenharia de Software/Design Patterns/Criacionais/Factory Method.md",
-    "Engenharia de Software/Design Patterns/Comportamentais",
-    "Engenharia de Software/Design Patterns/Estruturais",
-    "Engenharia de Software/Design Patterns/Criacionais",
-    "Engenharia de Software/Design Patterns/Decorator.md",
-    "Engenharia de Software/Design Patterns/Adapter.md",
-    "Engenharia de Software/Design Patterns",
-    "Engenharia de Software/SOLID",
-    "Engenharia de Software/Clean Architecture",
-    "Engenharia de Software",
-    "Git",
-    "Tags",
-    "Sem título.base",
+    "01. Fundamentos/01. Fundamentos.md",
+    "02. Engenharia de Software/02. Engenharia de Software.md",
+    "03. Plataforma e Cloud-Native/03. Plataforma e Cloud-Native.md",
+    "04. Inteligência Artificial/04. Inteligência Artificial.md",
+    "02. Engenharia de Software/Bancos de Dados.md",
+    "03. Plataforma e Cloud-Native/Plataforma e Cloud-Native.md",
+    "01. Fundamentos/Git/Git.md",
+    "01. Fundamentos/Git/Git Cheat Sheet.md",
+    "01. Fundamentos/Git/Conventional Commits e Commit Lint.md",
+    "01. Fundamentos/Git",
+    "04. Inteligência Artificial/LLMs/RAG (Retrieval-Augmented Generation).md",
+    "04. Inteligência Artificial/LLMs/Prompt Engineering Avançado.md",
+    "04. Inteligência Artificial/LLMs/LLMs.md",
+    "04. Inteligência Artificial/LLMs/Hospedando IAs Locais com Docker.md",
+    "04. Inteligência Artificial/LLMs/Guia Prático de Implementação de RAG.md",
+    "04. Inteligência Artificial/LLMs/Fundamentos de GenAI.md",
+    "04. Inteligência Artificial/LLMs/Fine-tuning de LLMs.md",
+    "04. Inteligência Artificial/LLMs/Arquitetura de Multiagentes.md",
+    "04. Inteligência Artificial/LLMs/Agentes e Ferramentas.md",
+    "04. Inteligência Artificial/LLMs/Arquitetura Modular para IA.md",
+    "04. Inteligência Artificial/LLMs",
+    "04. Inteligência Artificial",
+    "03. Plataforma e Cloud-Native/Terraform/Workspaces e Ambientes.md",
+    "03. Plataforma e Cloud-Native/Terraform/Terraform.md",
+    "03. Plataforma e Cloud-Native/Terraform/Terraform Import.md",
+    "03. Plataforma e Cloud-Native/Terraform/Segurança e Gestão de Segredos.md",
+    "03. Plataforma e Cloud-Native/Terraform/Lógica Avançada e Ciclo de Vida.md",
+    "03. Plataforma e Cloud-Native/Terraform/Ferramentas do Ecossistema.md",
+    "03. Plataforma e Cloud-Native/Terraform/Exemplo Completo - K8s, Rancher e Gateway API.md",
+    "03. Plataforma e Cloud-Native/Terraform",
+    "03. Plataforma e Cloud-Native/Kubernetes",
+    "03. Plataforma e Cloud-Native/Docker",
+    "03. Plataforma e Cloud-Native",
+    "02. Engenharia de Software/Design Patterns/Estruturais",
+    "02. Engenharia de Software/Design Patterns/Criacionais",
+    "02. Engenharia de Software/Design Patterns/Comportamentais",
     "Sem título.canvas"
   ]
 }
