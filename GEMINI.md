@@ -38,6 +38,17 @@ Tecnologias de fronteira, modelos de linguagem e agentes.
 - **04. Inteligência Artificial.md**: Guia mestre de IA e Dados.
 - **LLMs/**: Índice, Fundamentos de GenAI, Prompt Engineering, RAG e Agentes.
 
+### 🎓 05. Trilhas de Estudos (`/05. Trilhas de Estudos`)
+Roadmaps de carreira e sequenciamento de aprendizado.
+- **05. Trilhas de Estudos.md**: Índice de carreiras e trilhas.
+- **Desenvolvedor CSharp - [Junior/Pleno/Senior].md**: Trilhas de carreira .NET detalhadas por nível.
+- **Analista de QA.md**: Trilha focada em qualidade, testes e automação.
+- **DevOps.md**: Trilha completa para engenharia de infraestrutura e automação.
+- **Arquiteto de Software.md**: Trilha focada em design sistêmico, padrões e decisões de alto nível.
+- **Tech Lead.md**: Trilha focada em excelência técnica, mentoria e liderança de times.
+- **Scrum Master.md**: Trilha focada em processos ágeis, facilitação e liderança servidora.
+- **Product Owner.md**: Trilha focada em gestão de backlog, estratégia de produto e valor de negócio.
+
 ---
 
 ## 🚀 Como Utilizar
