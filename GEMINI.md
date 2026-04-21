@@ -21,6 +21,7 @@ A lógica de design, qualidade e construção de software de alta performance.
 - **SOLID/**: Princípios e exemplos práticos (SRP, OCP, LSP, ISP, DIP).
 - **Design Patterns/**: Padrões GoF detalhados com exemplos em C#.
     - **Catálogo de Design Patterns.md**: Guia visual e resumo de todos os padrões.
+- **System Design.md**: Estruturação macro para escala e performance.
 - **Padrões de Microserviços.md**: CQRS, Sagas, API Gateway e BFF.
 - **Estratégia de Testes.md**: Garantia de qualidade e TDD.
 - **Autenticação e Segurança.md**: OAuth2, OIDC, JWT e proteção de APIs.

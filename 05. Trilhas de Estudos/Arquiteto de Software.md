@@ -15,7 +15,9 @@ Antes de desenhar sistemas complexos, é preciso dominar a qualidade do código.
 Como organizar o sistema como um todo.
 1.  **Clean Architecture:** Separação de conceitos e regra da dependência.
     - [[02. Engenharia de Software/Clean Architecture/Clean Architecture|Guia de Clean Architecture]]
-2.  **Arquitetura Hexagonal:** Portas e Adaptadores para isolar o core do sistema.
+2.  **System Design:** Visão macro para escalabilidade, caching e disponibilidade.
+    - [[02. Engenharia de Software/System Design|Guia de System Design]]
+3.  **Arquitetura Hexagonal:** Portas e Adaptadores para isolar o core do sistema.
     - [[02. Engenharia de Software/Clean Architecture/Diferença entre Clean vs Hexagonal|Clean vs Hexagonal]]
 
 ## 🛰️ Fase 3: Sistemas Distribuídos e Comunicação

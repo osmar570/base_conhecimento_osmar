@@ -8,34 +8,95 @@ A adoção de microserviços traz agilidade, mas aumenta a complexidade. O uso d
 
 ### 1. CQRS (Command Query Responsibility Segregation)
 Separação da responsabilidade de escrita (Comandos) da responsabilidade de leitura (Consultas).
-- **Comandos:** Focam na lógica de negócio e validação.
-- **Consultas:** Focam na performance e projeção de dados (muitas vezes usando bancos diferentes, ex: Escrita em SQL e Leitura em NoSQL/Elasticsearch).
-- **Benefício:** Permite escalar leitura e escrita independentemente.
+
+#### ✅ Exemplo em C# (usando MediatR)
+O padrão MediatR é amplamente usado para implementar CQRS em .NET, desacoplando quem envia o comando de quem o processa.
+
+```csharp
+// 1. O Comando (Escrita)
+public record CreateUserCommand(string Name, string Email) : IRequest<Guid>;
+
+// 2. O Handler (Processador do Comando)
+public class CreateUserHandler : IRequestHandler<CreateUserCommand, Guid> {
+    public async Task<Guid> Handle(CreateUserCommand request, CancellationToken ct) {
+        var id = Guid.NewGuid();
+        // Lógica para salvar no banco de escrita (SQL Server)
+        Console.WriteLine($"Usuário {request.Name} criado no banco de escrita.");
+        return id;
+    }
+}
+
+// 3. A Query (Leitura - Independente da escrita)
+public record GetUserByIdQuery(Guid Id) : IRequest<UserDto>;
+```
 
 ### 2. Event Sourcing
-Em vez de armazenar o estado atual do objeto, armazenamos a **sequência de eventos** que levou a esse estado.
-- O estado atual é reconstruído "reproduzindo" os eventos.
-- **Benefício:** Auditoria perfeita e capacidade de reconstruir o estado em qualquer ponto do tempo.
+Em vez de armazenar o estado atual, armazenamos a **sequência de eventos**.
+
+#### ✅ Conceito em C#
+Muitas vezes implementado com bibliotecas como **Marten** ou **EventStoreDB**.
+```csharp
+public record UserRegistered(Guid Id, string Name, DateTime OccurredOn);
+public record UserEmailUpdated(Guid Id, string NewEmail, DateTime OccurredOn);
+
+// O estado é reconstruído aplicando a lista de eventos
+public class UserAccount {
+    public string Name { get; private set; }
+    public void Apply(UserRegistered e) => Name = e.Name;
+}
+```
 
 ---
 
 ## 🛰️ Padrões de Exposição e Consumo
 
 ### 1. API Gateway
-Um ponto de entrada único para todas as requisições dos clientes.
-- **Responsabilidades:** Autenticação, Rate Limiting, Roteamento, Logging e Caching.
-- **Benefício:** Esconde a complexidade interna do cluster (K8s) para o cliente externo.
+Ponto de entrada único. Em .NET, ferramentas como **Ocelot** ou **YARP** são padrão.
 
 ### 2. BFF (Backend for Frontend)
-Uma variação do API Gateway onde criamos um backend específico para cada tipo de cliente (ex: um para Mobile, outro para Web).
-- **Benefício:** Otimiza o payload para as necessidades específicas de cada tela, evitando over-fetching.
+Backend específico para cada tipo de interface (Mobile, Web, IoT).
+
+#### ✅ Exemplo em C# (Agregação simples)
+```csharp
+[ApiController]
+[Route("mobile/order-details")]
+public class OrderBffController : ControllerBase {
+    private readonly IOrderService _orderService;
+    private readonly ICustomerService _customerService;
+
+    public async Task<IActionResult> Get(Guid orderId) {
+        // BFF agrega dados de múltiplos serviços para otimizar o payload do Mobile
+        var order = await _orderService.GetById(orderId);
+        var customer = await _customerService.GetById(order.CustomerId);
+        
+        return Ok(new { order.Total, customer.Name, order.Status });
+    }
+}
+```
 
 ---
 
 ## 🔄 Resiliência e Consistência
 
-- **Saga Pattern:** Gerencia transações distribuídas entre microserviços. Se um passo falhar, a Saga executa ações de compensação para manter a consistência.
-- **Circuit Breaker:** Impede que uma falha em um serviço em cascata derrube todo o sistema, interrompendo chamadas para serviços que estão comprovadamente lentos ou fora do ar.
+### 1. Circuit Breaker
+Impede que falhas em cascata derrubem o sistema.
+
+#### ✅ Exemplo em C# (usando Polly)
+```csharp
+var circuitBreakerPolicy = Policy
+    .Handle<HttpRequestException>()
+    .CircuitBreakerAsync(
+        exceptionsAllowedBeforeBreaking: 3,
+        durationOfBreak: TimeSpan.FromSeconds(30)
+    );
+
+// Uso
+await circuitBreakerPolicy.ExecuteAsync(() => _httpClient.GetAsync("https://api-externa.com"));
+```
+
+### 2. Saga Pattern
+Gerencia transações distribuídas (Saga Orquestrada ou Coreografada).
+- **C# Way:** Em .NET, o **MassTransit** é a ferramenta líder para implementar Sagas através de *State Machines*.
 
 ---
 **Links Relacionados:**
