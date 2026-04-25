@@ -81,12 +81,39 @@ spec:
 
 ---
 
-## 4. Por que usar?
-1.  **Imutabilidade:** Você não altera a imagem do container para mudar uma configuração.
-2.  **Segurança:** Senhas não ficam expostas no código fonte ou no histórico do Git (se você não versionar os arquivos de Secret).
-3.  **Flexibilidade:** Permite atualizar configurações em tempo de execução sem necessariamente reiniciar todos os Pods (dependendo de como a aplicação lê os dados).
+## 4. ConfigMaps Imutáveis
+A partir do Kubernetes 1.19, é possível marcar ConfigMaps e Secrets como **imutáveis**.
+*   **Vantagem:** Reduz a carga no `kube-apiserver` (o Kubelet para de monitorar mudanças) e garante que as configurações não sejam alteradas acidentalmente.
+```yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: static-config
+data:
+  config: "valor"
+immutable: true
+```
 
-### Comandos úteis:
+---
+
+## 5. Hot Reload: Mounting vs Env Vars
+A forma como você consome o ConfigMap afeta como as atualizações são propagadas:
+
+1.  **Variáveis de Ambiente:** O valor é injetado no momento da criação do Pod. Se o ConfigMap mudar, o Pod **não** recebe o novo valor até ser reiniciado.
+2.  **Volumes (Mounting):** O Kubelet atualiza o arquivo montado periodicamente. Se a aplicação for capaz de monitorar mudanças no arquivo (ex: `fsnotify`), ela pode fazer o **Hot Reload** sem reiniciar o Pod.
+
+---
+
+## 🛡️ Boas Práticas e Segurança
+
+1.  **Não versionar Secrets no Git:** Utilize ferramentas como **Sealed Secrets**, **Sops** ou integre com **External Secrets Operator** para buscar dados de um Vault externo (GCP Secret Manager, Azure Key Vault).
+2.  **Princípio do Menor Privilégio:** Use [[RBAC e Governança|RBAC]] para limitar quem pode ler os Secrets em cada Namespace.
+3.  **Tamanho Limite:** O tamanho máximo de um ConfigMap ou Secret é de **1MB**. Para arquivos maiores, utilize volumes externos ou Persistent Volumes.
+4.  **Prefixos nas Chaves:** Use nomes claros nas chaves (`DATABASE_URL` em vez de apenas `URL`) para evitar colisões quando injetadas como variáveis de ambiente.
+
+---
+
+## Comandos úteis:
 ```bash
 # Criar rapidamente via linha de comando
 kubectl create configmap minha-config --from-literal=chave=valor
