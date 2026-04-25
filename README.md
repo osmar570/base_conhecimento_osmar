@@ -1,3 +1,6 @@
+---
+color: ""
+---
 # 🧠 Base de Conhecimento: Software Engineering & Cloud-Native
 
 Bem-vindo ao repositório de conhecimento técnico de nível sênior. Este projeto é um **Vault do Obsidian** organizado sistematicamente em pilares estratégicos, cobrindo desde fundamentos de sistemas até arquiteturas complexas de IA e Cloud-Native.
@@ -8,7 +11,7 @@ Bem-vindo ao repositório de conhecimento técnico de nível sênior. Este proje
 
 A base é organizada de forma hierárquica para facilitar o aprendizado e a consulta rápida:
 
-1.  **🏗️ 01. Fundamentos**: Linux, Git e Redes. A base que sustenta a tecnologia moderna.
+1.  **🏗️ 01. Fundamentos**: Linux, Git, Estrutura de Dados e Redes. A base que sustenta a tecnologia moderna.
 2.  **📐 02. Engenharia de Software**: SOLID, Design Patterns, Clean Architecture, APIs, Mensageria e Qualidade.
 3.  **☁️ 03. Plataforma e Cloud-Native**: Docker, Kubernetes, Terraform, CI/CD e Observabilidade (SRE).
 4.  **🤖 04. Inteligência Artificial**: Fundamentos de GenAI, LLMs, RAG e Agentes.

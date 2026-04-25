@@ -13,6 +13,8 @@ A base tecnológica que sustenta toda a infraestrutura moderna.
 - **01. Fundamentos.md**: Guia mestre de sistemas e versionamento.
 - **Linux/**: O sistema operacional e o Kernel Linux.
 - **Git/**: Versionamento, padrões de commit e estratégias de branch.
+- **Estrutura de Dados/**: Organização, complexidade Big O e algoritmos fundamentais.
+- **Complexidade e Big O.md**: Análise de performance e escalabilidade.
 
 ### 📐 02. Engenharia de Software (`/02. Engenharia de Software`)
 A lógica de design, qualidade e construção de software de alta performance.
