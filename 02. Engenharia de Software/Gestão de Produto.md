@@ -50,6 +50,41 @@ O formato padrão para descrever requisitos de forma centrada no valor:
 
 **Critérios de Aceite:** O "contrato" que define quando a história está realmente pronta.
 
+## 🤝 Alinhamento: Engenharia e Negócio
+
+A engenharia de software não existe no vácuo; ela é o motor que viabiliza a estratégia de negócio.
+*   **Trade-offs Técnicos vs. Prazo**: Entender quando usar um "MVP funcional" e quando investir em "Arquitetura Robusta".
+*   **Dívida Técnica Consciente**: Saber que código rápido pode gerar lucro agora, mas deve ser pago para não travar o crescimento futuro.
+*   **Visão de Impacto**: Engenheiros sêniores focam no *resultado* (ex: aumento de conversão) e não apenas no *output* (ex: número de PRs).
+
+---
+
+## 📈 Métricas de Produto
+
+As métricas ajudam o time a saber se estão indo na direção certa.
+
+### 🌟 North Star Metric (Métrica Norte)
+A métrica única que melhor expressa o valor central que seu produto entrega aos clientes.
+*   **Exemplo (Airbnb)**: Noites reservadas.
+*   **Exemplo (Spotify)**: Tempo gasto ouvindo música.
+*   **Por que importa?**: Ela alinha todos os departamentos (Produto, Engenharia, Marketing) em um único objetivo.
+
+### 🔢 Outras Métricas (AARRR - Pirate Metrics)
+1.  **Acquisition (Aquisição)**: De onde vêm os usuários?
+2.  **Activation (Ativação)**: Eles tiveram uma boa primeira experiência?
+3.  **Retention (Retenção)**: Eles voltam a usar o produto?
+4.  **Referral (Recomendação)**: Eles indicam para outros?
+5.  **Revenue (Receita)**: Como o produto ganha dinheiro?
+
+---
+
+## 🔄 Ciclo de Vida do Produto
+
+1.  **Introdução**: Foco em Product-Market Fit e validação de hipóteses.
+2.  **Crescimento**: Foco em escalabilidade técnica e aquisição agressiva.
+3.  **Maturidade**: Foco em eficiência operacional, otimização de custos e retenção.
+4.  **Declínio**: Decisão de pivotar, descontinuar (sunset) ou extrair o valor final.
+
 ---
 **Links Relacionados:**
 - [[02. Engenharia de Software/Metodologias Ágeis e Processos|Processos Ágeis]]

@@ -4,7 +4,7 @@ Este repositório é um **Vault do Obsidian** de nível profissional, focado em 
 
 ---
 
-## 📂 Organização da Base (Os 4 Pilares)
+## 📂 Organização da Base (Os 6 Pilares)
 
 O conhecimento está estruturado em pilares fundamentais, facilitando a navegação e a descoberta de temas relacionados.
 
@@ -26,7 +26,9 @@ A lógica de design, qualidade e construção de software de alta performance.
 - **System Design.md**: Estruturação macro para escala e performance.
 - **Padrões de Microserviços.md**: CQRS, Sagas, API Gateway e BFF.
 - **Estratégia de Testes.md**: Garantia de qualidade e TDD.
+- **Qualidade de Código e Métricas.md**: Complexidade, cobertura e análise estática.
 - **Autenticação e Segurança.md**: OAuth2, OIDC, JWT e proteção de APIs.
+- **DevSecOps.md**: Segurança integrada ao CI/CD (SAST, DAST, SCA).
 - **Gestão de Produto.md**: Discovery, Priorização (RICE, MoSCoW) e Story Mapping.
 - **Liderança e Documentação.md**: ADRs e Gestão de Dívida Técnica.
 - **Design de APIs.md**: REST, gRPC, GraphQL e Versionamento.
@@ -42,12 +44,16 @@ Onde e como o software é executado, entregue e monitorado.
 - **Terraform/**: Infraestrutura como Código (IaC) e automação.
 - **Redes para DevOps.md**: DNS, Protocolos e Segurança de tráfego.
 - **Ferramentas de CI-CD.md**: Automação de builds, testes e entregas.
-- **Observabilidade e SRE.md**: Monitoramento, Logs, Traces e Estabilidade.
+- **Observabilidade e SRE.md**: Estratégias de confiabilidade.
+- **Monitoramento e Logging.md**: ELK, PLG Stack e Tracing distribuído.
+- **Serverless e Edge Computing.md**: FaaS, BaaS e processamento na borda.
 
 ### 🤖 04. Inteligência Artificial (`/04. Inteligência Artificial`)
 Tecnologias de fronteira, modelos de linguagem e agentes.
 - **04. Inteligência Artificial.md**: Guia mestre de IA e Dados.
 - **LLMs/**: Índice, Fundamentos de GenAI, Prompt Engineering, RAG e Agentes.
+- **MLOps.md**: Automação do ciclo de vida de Machine Learning.
+- **Ética em IA e Viés.md**: Transparência e uso responsável de modelos.
 
 ### 🎓 05. Trilhas de Estudos (`/05. Trilhas de Estudos`)
 Roadmaps de carreira e sequenciamento de aprendizado.
@@ -55,10 +61,16 @@ Roadmaps de carreira e sequenciamento de aprendizado.
 - **Desenvolvedor CSharp - (Júnior / Pleno / Senior) .md**: Trilhas de carreira .NET detalhadas por nível.
 - **Analista de QA.md**: Trilha focada em qualidade, testes e automação.
 - **DevOps.md**: Trilha completa para engenharia de infraestrutura e automação.
-- **Arquiteto de Software.md**: Trilha focada em design sistêmico, padrões e decisões de alto nível.
-- **Tech Lead.md**: Trilha focada em excelência técnica, mentoria e liderança de times.
-- **Scrum Master.md**: Trilha focada em processos ágeis, facilitação e liderança servidora.
-- **Product Owner.md**: Trilha focada em gestão de backlog, estratégia de produto e valor de negócio.
+- **Arquiteto de Software.md**: Trilha focada em design sistêmico e decisões de alto nível.
+- **Arquiteto de Soluções.md**: Design de arquitetura de nuvem e integração.
+- **Engenheiro de Dados.md**: Trilha focada em pipelines, Big Data e Analytics.
+- **Tech Lead.md**: Trilha focada em excelência técnica e mentoria.
+- **Scrum Master.md**: Facilitação de processos ágeis e cultura de time.
+- **Product Owner.md**: Gestão de backlog e valor de negócio.
+
+### 🛠️ 06. Ferramentas e Tecnologias (`/06. Ferramentas e Tecnologias`)
+O "Cinto de Utilidades" do engenheiro de software moderno.
+- **06. Ferramentas e Tecnologias.md**: Guia consolidado de IDEs, CLIs e utilitários.
 
 ---
 

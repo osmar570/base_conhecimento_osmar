@@ -39,8 +39,16 @@ Utilizar IA para otimizar processos de infraestrutura.
 1.  **IA para DevOps:** Automação de scripts e análise de incidentes.
     - [[04. Inteligência Artificial/04. Inteligência Artificial|O futuro com IA]]
 
----
-### 🛠️ Ferramentas Sugeridas para Praticar:
-- **Cloud:** AWS, GCP ou Azure.
-- **CI/CD:** GitHub Actions, GitLab CI ou Jenkins.
-- **Monitoring:** Prometheus e Grafana.
+## 📚 Recursos Recomendados
+
+### Livros de Cabeceira
+*   **"Projeto Fênix"** (Gene Kim): Um romance sobre DevOps e gestão de TI.
+*   **"Manual de DevOps"** (Gene Kim, Jez Humble): O guia prático para cultura e ferramentas.
+*   **"Site Reliability Engineering (SRE)"** (Google): O livro que definiu as práticas de SRE.
+*   **"Acelerando (Accelerate)"** (Nicole Forsgren): Ciência por trás da performance de times.
+
+### Documentação e Comunidades
+*   **Roadmap.sh/devops**: O guia visual definitivo de tecnologias.
+*   **CNCF Landscape**: O mapa do ecossistema Cloud-Native.
+*   **HashiCorp Learn**: Tutoriais oficiais sobre Terraform e Vault.
+

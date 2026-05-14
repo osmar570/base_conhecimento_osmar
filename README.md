@@ -7,15 +7,16 @@ Bem-vindo ao repositório de conhecimento técnico de nível sênior. Este proje
 
 ---
 
-## 🏛️ Estrutura da Base (Os 5 Pilares)
+## 🏛️ Estrutura da Base (Os 6 Pilares)
 
 A base é organizada de forma hierárquica para facilitar o aprendizado e a consulta rápida:
 
 1.  **🏗️ 01. Fundamentos**: Linux, Git, Estrutura de Dados e Redes. A base que sustenta a tecnologia moderna.
-2.  **📐 02. Engenharia de Software**: SOLID, Design Patterns, Clean Architecture, APIs, Mensageria e Qualidade.
-3.  **☁️ 03. Plataforma e Cloud-Native**: Docker, Kubernetes, Terraform, CI/CD e Observabilidade (SRE).
-4.  **🤖 04. Inteligência Artificial**: Fundamentos de GenAI, LLMs, RAG e Agentes.
-5.  **🎓 05. Trilhas de Estudos**: Roadmaps profissionais para DevOps, Arquiteto, Tech Lead, Desenvolvedor .NET e QA.
+2.  **📐 02. Engenharia de Software**: SOLID, Design Patterns, Clean Architecture, APIs, Mensageria, Qualidade de Código e **DevSecOps**.
+3.  **☁️ 03. Plataforma e Cloud-Native**: Docker, Kubernetes, Terraform, CI/CD, Observabilidade (SRE) e **Serverless**.
+4.  **🤖 04. Inteligência Artificial**: Fundamentos de GenAI, LLMs, RAG, Agentes e **MLOps**.
+5.  **🎓 05. Trilhas de Estudos**: Roadmaps para DevOps, Arquiteto de Soluções, Engenheiro de Dados, Tech Lead e Desenvolvedor .NET.
+6.  **🛠️ 06. Ferramentas e Tecnologias**: O cinto de utilidades com IDEs, CLIs, Gerenciadores de Pacotes e Produtividade.
 
 ---
 

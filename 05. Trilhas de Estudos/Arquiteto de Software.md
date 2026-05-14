@@ -45,8 +45,16 @@ A arquitetura deve sobreviver ao ambiente de execução.
 1.  **ADRs (Architecture Decision Records):** Documentar o "porquê" das decisões técnicas.
 2.  **Gestão de Dívida Técnica:** Saber quando sacrificar qualidade por tempo e como pagar isso depois.
 
----
-### 📚 Livros Recomendados:
-- *Clean Architecture* (Robert C. Martin)
-- *Designing Data-Intensive Applications* (Martin Kleppmann)
-- *Building Microservices* (Sam Newman)
+## 📚 Recursos Recomendados
+
+### Livros Essenciais
+*   **"Arquitetura Limpa"** (Robert C. Martin): O guia definitivo sobre design e desacoplamento.
+*   **"Fundamentos da Arquitetura de Software"** (Mark Richards): Uma visão moderna sobre trade-offs e padrões.
+*   **"Implementando Domain-Driven Design"** (Vaughn Vernon): Aprofundamento em DDD.
+*   **"Designing Data-Intensive Applications"** (Martin Kleppmann): A "bíblia" dos sistemas de dados distribuídos.
+
+### Documentação e Comunidades
+*   **Microsoft Architecture Center**: Excelentes guias sobre padrões de nuvem.
+*   **InfoQ Architecture**: Artigos e palestras de nível sênior.
+*   **AWS Architecture Blog**: Casos reais de escala.
+
